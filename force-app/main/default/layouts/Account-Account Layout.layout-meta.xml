@@ -198,7 +198,7 @@
         <relatedList>RelatedNoteList</relatedList>
     </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
-    <showEmailCheckbox>false</showEmailCheckbox>
+    <showEmailCheckbox>true</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>
     <showInteractionLogPanel>true</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
