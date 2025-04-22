@@ -1,0 +1,110 @@
+type salesforce.InfoAuthorizationRequest {
+  salesforce.Picklist CommunicationType {
+    apiName = "InfoAuthorizationRequest.CommunicationType"
+    label = "Communication Type"
+    restricted = true
+  }
+  salesforce.Lookup ConsenterId {
+    apiName = "InfoAuthorizationRequest.ConsenterId"
+    label = "Consenter ID"
+    relationshipName = "Consenter"
+  }
+  salesforce.Lookup DataUsePurposeId {
+    apiName = "InfoAuthorizationRequest.DataUsePurposeId"
+    label = "Data Use Purpose ID"
+    _required = true
+    relationshipName = "DataUsePurpose"
+  }
+  salesforce.DateTime ExpirationDateTime {
+    apiName = "InfoAuthorizationRequest.ExpirationDateTime"
+    label = "Expiration Date Time"
+  }
+  salesforce.Picklist Locale {
+    apiName = "InfoAuthorizationRequest.Locale"
+    label = "Locale"
+    restricted = true
+  }
+  salesforce.Lookup MultipartyInfoAuthRequestId {
+    apiName = "InfoAuthorizationRequest.MultipartyInfoAuthRequestId"
+    label = "Multiparty Information Authorization Request ID"
+    relationshipName = "MultipartyInfoAuthRequest"
+  }
+  salesforce.Text Name {
+    apiName = "InfoAuthorizationRequest.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup PertainsToId {
+    apiName = "InfoAuthorizationRequest.PertainsToId"
+    label = "Pertains To ID"
+    _required = true
+    relationshipName = "PertainsTo"
+  }
+  salesforce.DateTime RequestedDateTime {
+    apiName = "InfoAuthorizationRequest.RequestedDateTime"
+    label = "Requested Date Time"
+  }
+  salesforce.Lookup RequesterId {
+    apiName = "InfoAuthorizationRequest.RequesterId"
+    label = "Requester ID"
+    relationshipName = "Requester"
+  }
+  salesforce.Picklist ResponseStatus {
+    apiName = "InfoAuthorizationRequest.ResponseStatus"
+    label = "Response Status"
+    restricted = true
+  }
+  salesforce.Lookup SourceRecordId {
+    apiName = "InfoAuthorizationRequest.SourceRecordId"
+    label = "Source Record ID"
+    relationshipName = "SourceRecord"
+  }
+  serviceid Id {
+    apiName = "InfoAuthorizationRequest.Id"
+    label = "Info Authorization Request ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "InfoAuthorizationRequest.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "InfoAuthorizationRequest.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "InfoAuthorizationRequest.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "InfoAuthorizationRequest.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "InfoAuthorizationRequest.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "InfoAuthorizationRequest.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "InfoAuthorizationRequest.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

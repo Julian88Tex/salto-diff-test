@@ -1,0 +1,85 @@
+type salesforce.ClaimItem {
+  salesforce.Picklist Category {
+    apiName = "ClaimItem.Category"
+    label = "Category"
+    restricted = false
+  }
+  salesforce.MasterDetail ClaimId {
+    apiName = "ClaimItem.ClaimId"
+    label = "Claim ID"
+    _required = true
+    relationshipName = "Claim"
+  }
+  salesforce.Lookup ClaimParticipantId {
+    apiName = "ClaimItem.ClaimParticipantId"
+    label = "Claim Participant ID"
+    relationshipName = "ClaimParticipant"
+  }
+  salesforce.Address CurrentAddress {
+    apiName = "ClaimItem.CurrentAddress"
+    label = "Current Address"
+    _hidden_value = true
+  }
+  salesforce.LongTextArea Description {
+    apiName = "ClaimItem.Description"
+    label = "Description"
+    length = 32000
+  }
+  salesforce.Lookup InsurancePolicyAssetId {
+    apiName = "ClaimItem.InsurancePolicyAssetId"
+    label = "Insurance Policy Asset ID"
+    relationshipName = "InsurancePolicyAsset"
+  }
+  salesforce.Lookup InsurancePolicyCoverageId {
+    apiName = "ClaimItem.InsurancePolicyCoverageId"
+    label = "Insurance Policy Coverage ID"
+    relationshipName = "InsurancePolicyCoverage"
+  }
+  salesforce.Text Name {
+    apiName = "ClaimItem.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "ClaimItem.Id"
+    label = "Claim Item ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ClaimItem.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ClaimItem.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ClaimItem.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ClaimItem.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ClaimItem.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ClaimItem.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

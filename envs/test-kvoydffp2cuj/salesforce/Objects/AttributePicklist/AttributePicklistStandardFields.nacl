@@ -1,0 +1,67 @@
+type salesforce.AttributePicklist {
+  salesforce.Unknown DataType {
+    apiName = "AttributePicklist.DataType"
+    _hidden_value = true
+  }
+  salesforce.Unknown Description {
+    apiName = "AttributePicklist.Description"
+    _hidden_value = true
+  }
+  salesforce.Text Name {
+    apiName = "AttributePicklist.Name"
+    label = "Name"
+    _required = true
+    length = 80
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "AttributePicklist.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Unknown Status {
+    apiName = "AttributePicklist.Status"
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "AttributePicklist.Id"
+    label = "Attribute Picklist ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "AttributePicklist.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "AttributePicklist.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "AttributePicklist.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "AttributePicklist.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "AttributePicklist.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "AttributePicklist.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

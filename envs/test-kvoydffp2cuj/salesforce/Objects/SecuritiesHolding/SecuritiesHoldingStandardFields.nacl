@@ -1,0 +1,152 @@
+type salesforce.SecuritiesHolding {
+  salesforce.Picklist AssetCategory {
+    apiName = "SecuritiesHolding.AssetCategory"
+    label = "Asset Category"
+    restricted = false
+  }
+  salesforce.Picklist AssetCategoryName {
+    apiName = "SecuritiesHolding.AssetCategoryName"
+    label = "Asset Category Name"
+    restricted = false
+  }
+  salesforce.Picklist AssetClass {
+    apiName = "SecuritiesHolding.AssetClass"
+    label = "Asset Class"
+    restricted = false
+  }
+  salesforce.Currency GainLoss {
+    apiName = "SecuritiesHolding.GainLoss"
+    label = "Gain/Loss"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Lookup HouseholdId {
+    apiName = "SecuritiesHolding.HouseholdId"
+    label = "Account ID"
+    relationshipName = "Household"
+  }
+  salesforce.Lookup InsurancePolicyId {
+    apiName = "SecuritiesHolding.InsurancePolicyId"
+    label = "Insurance Policy ID"
+    relationshipName = "InsurancePolicy"
+  }
+  salesforce.Date InvestmentEndDate {
+    apiName = "SecuritiesHolding.InvestmentEndDate"
+    label = "Investment End Date"
+  }
+  salesforce.Date InvestmentStartDate {
+    apiName = "SecuritiesHolding.InvestmentStartDate"
+    label = "Investment Start Date"
+  }
+  salesforce.DateTime LastUpdated {
+    apiName = "SecuritiesHolding.LastUpdated"
+    label = "Last Updated"
+  }
+  salesforce.Currency MarketValue {
+    apiName = "SecuritiesHolding.MarketValue"
+    label = "Market Value"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Text Name {
+    apiName = "SecuritiesHolding.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "SecuritiesHolding.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Percent PercentChange {
+    apiName = "SecuritiesHolding.PercentChange"
+    label = "Percent Change"
+    scale = 2
+    precision = 16
+  }
+  salesforce.Currency Price {
+    apiName = "SecuritiesHolding.Price"
+    label = "Price"
+    scale = 2
+    precision = 12
+  }
+  salesforce.Lookup PrimaryOwnerId {
+    apiName = "SecuritiesHolding.PrimaryOwnerId"
+    label = "Account ID"
+    relationshipName = "PrimaryOwner"
+  }
+  salesforce.Currency PurchasePrice {
+    apiName = "SecuritiesHolding.PurchasePrice"
+    label = "Purchase Price"
+    scale = 2
+    precision = 12
+  }
+  salesforce.Picklist Sector {
+    apiName = "SecuritiesHolding.Sector"
+    label = "Sector"
+  }
+  salesforce.Number Shares {
+    apiName = "SecuritiesHolding.Shares"
+    label = "Shares"
+    scale = 4
+    precision = 14
+    unique = false
+  }
+  salesforce.Text SourceSystem {
+    apiName = "SecuritiesHolding.SourceSystem"
+    label = "Source System"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "SecuritiesHolding.SourceSystemIdentifier"
+    label = "Source System Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "SecuritiesHolding.Id"
+    label = "Securities Holding ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "SecuritiesHolding.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "SecuritiesHolding.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "SecuritiesHolding.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "SecuritiesHolding.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "SecuritiesHolding.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "SecuritiesHolding.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

@@ -1,0 +1,154 @@
+type salesforce.ContractGroupPlan {
+  salesforce.Lookup AccountId {
+    apiName = "ContractGroupPlan.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+  }
+  salesforce.Lookup ContractGroupParentPlanId {
+    apiName = "ContractGroupPlan.ContractGroupParentPlanId"
+    label = "Contract Group Plan ID"
+    relationshipName = "ContractGroupParentPlan"
+  }
+  salesforce.MasterDetail ContractId {
+    apiName = "ContractGroupPlan.ContractId"
+    label = "Contract ID"
+    _required = true
+    relationshipName = "Contract"
+  }
+  salesforce.DateTime EffectiveEndDate {
+    apiName = "ContractGroupPlan.EffectiveEndDate"
+    label = "Effective End Date"
+  }
+  salesforce.DateTime EffectiveStartDate {
+    apiName = "ContractGroupPlan.EffectiveStartDate"
+    label = "Effective Start Date"
+  }
+  salesforce.Text EligibilityCriteria {
+    apiName = "ContractGroupPlan.EligibilityCriteria"
+    label = "Eligibility Criteria"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Date EnrollmentEndDate {
+    apiName = "ContractGroupPlan.EnrollmentEndDate"
+    label = "Enrollment End Date"
+  }
+  salesforce.Picklist EnrollmentRatingType {
+    apiName = "ContractGroupPlan.EnrollmentRatingType"
+    label = "Enrollment Rating Type"
+    restricted = true
+  }
+  salesforce.Date EnrollmentStartDate {
+    apiName = "ContractGroupPlan.EnrollmentStartDate"
+    label = "Enrollment Start Date"
+  }
+  salesforce.Number EnrollmentWaitingPeriod {
+    apiName = "ContractGroupPlan.EnrollmentWaitingPeriod"
+    label = "Enrollment Waiting Period"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Text GroupNumber {
+    apiName = "ContractGroupPlan.GroupNumber"
+    label = "Group Number"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsOptional {
+    apiName = "ContractGroupPlan.IsOptional"
+    label = "Is Optional"
+    defaultValue = false
+  }
+  salesforce.Text Name {
+    apiName = "ContractGroupPlan.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OriginalContractPlanId {
+    apiName = "ContractGroupPlan.OriginalContractPlanId"
+    label = "Contract Group Plan ID"
+    relationshipName = "OriginalContractPlan"
+  }
+  salesforce.Text PlanType {
+    apiName = "ContractGroupPlan.PlanType"
+    label = "Plan Type"
+    length = 255
+    unique = false
+    caseSensitive = false
+    _hidden_value = true
+  }
+  salesforce.LongTextArea PricingStructure {
+    apiName = "ContractGroupPlan.PricingStructure"
+    label = "Pricing Structure"
+    length = 131072
+  }
+  salesforce.Number ProductNumber {
+    apiName = "ContractGroupPlan.ProductNumber"
+    label = "Product Number"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Picklist Status {
+    apiName = "ContractGroupPlan.Status"
+    label = "Status"
+    restricted = true
+  }
+  salesforce.Currency UnitPrice {
+    apiName = "ContractGroupPlan.UnitPrice"
+    label = "Unit Price"
+    scale = 0
+    precision = 18
+  }
+  salesforce.Picklist UsageType {
+    apiName = "ContractGroupPlan.UsageType"
+    label = "Usage Type"
+    restricted = true
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "ContractGroupPlan.Id"
+    label = "Contract Group Plan ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ContractGroupPlan.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ContractGroupPlan.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ContractGroupPlan.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ContractGroupPlan.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ContractGroupPlan.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ContractGroupPlan.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

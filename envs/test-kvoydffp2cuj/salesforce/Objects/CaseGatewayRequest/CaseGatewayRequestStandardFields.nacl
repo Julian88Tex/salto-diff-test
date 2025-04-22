@@ -1,0 +1,87 @@
+type salesforce.CaseGatewayRequest {
+  serviceid Id {
+    apiName = "CaseGatewayRequest.Id"
+    label = "Case Gateway Request ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "CaseGatewayRequest.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "CaseGatewayRequest.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "CaseGatewayRequest.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "CaseGatewayRequest.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "CaseGatewayRequest.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "CaseGatewayRequest.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "CaseGatewayRequest.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Lookup CaseId {
+    apiName = "CaseGatewayRequest.CaseId"
+    label = "Case ID"
+    _required = true
+    relationshipName = "Case"
+  }
+  salesforce.Text StatusCode {
+    apiName = "CaseGatewayRequest.StatusCode"
+    label = "Status Code"
+    _required = true
+    length = 100
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text StatusMessage {
+    apiName = "CaseGatewayRequest.StatusMessage"
+    label = "Status Message"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "CaseGatewayRequest.SourceSystemIdentifier"
+    label = "Source System Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystem {
+    apiName = "CaseGatewayRequest.SourceSystem"
+    label = "Source System"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.LongTextArea IntegrationPayload {
+    apiName = "CaseGatewayRequest.IntegrationPayload"
+    label = "Integration Payload"
+    length = 32000
+  }
+}

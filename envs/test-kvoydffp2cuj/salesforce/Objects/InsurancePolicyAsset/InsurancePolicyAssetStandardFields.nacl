@@ -1,0 +1,164 @@
+type salesforce.InsurancePolicyAsset {
+  salesforce.Text AssetCode {
+    apiName = "InsurancePolicyAsset.AssetCode"
+    label = "Asset Code"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text AssetName {
+    apiName = "InsurancePolicyAsset.AssetName"
+    label = "Asset Name"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup CustomerPropertyId {
+    apiName = "InsurancePolicyAsset.CustomerPropertyId"
+    label = "Customer Property ID"
+    relationshipName = "CustomerProperty"
+  }
+  salesforce.Unknown EffectiveFromDate {
+    apiName = "InsurancePolicyAsset.EffectiveFromDate"
+    _hidden_value = true
+  }
+  salesforce.Unknown EffectiveToDate {
+    apiName = "InsurancePolicyAsset.EffectiveToDate"
+    _hidden_value = true
+  }
+  salesforce.MasterDetail InsurancePolicyId {
+    apiName = "InsurancePolicyAsset.InsurancePolicyId"
+    label = "Insurance Policy ID"
+    _required = true
+    relationshipName = "InsurancePolicy"
+  }
+  salesforce.Checkbox IsActive {
+    apiName = "InsurancePolicyAsset.IsActive"
+    label = "Active"
+    defaultValue = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "InsurancePolicyAsset.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Lookup PrimaryPolicyParticipantId {
+    apiName = "InsurancePolicyAsset.PrimaryPolicyParticipantId"
+    label = "Insurance Policy Participant ID"
+    relationshipName = "PrimaryPolicyParticipant"
+  }
+  salesforce.Lookup ProductId {
+    apiName = "InsurancePolicyAsset.ProductId"
+    _hidden_value = true
+  }
+  salesforce.Lookup RelatedInsurancePolicyAssetId {
+    apiName = "InsurancePolicyAsset.RelatedInsurancePolicyAssetId"
+    label = "Insurance Policy Asset ID"
+    relationshipName = "RelatedInsurancePolicyAsset"
+  }
+  salesforce.Text SourceSystem {
+    apiName = "InsurancePolicyAsset.SourceSystem"
+    label = "Source System"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "InsurancePolicyAsset.SourceSystemIdentifier"
+    label = "Source System Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  salesforce.Currency StandardFeeAmount {
+    apiName = "InsurancePolicyAsset.StandardFeeAmount"
+    label = "Standard Fee"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency StandardPremiumAmount {
+    apiName = "InsurancePolicyAsset.StandardPremiumAmount"
+    label = "Standard Premium"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency StandardTaxAmount {
+    apiName = "InsurancePolicyAsset.StandardTaxAmount"
+    label = "Standard Tax"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency TermFeeAmount {
+    apiName = "InsurancePolicyAsset.TermFeeAmount"
+    label = "Term Fee"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency TermPremiumAmount {
+    apiName = "InsurancePolicyAsset.TermPremiumAmount"
+    label = "Term Premium"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency TermTaxAmount {
+    apiName = "InsurancePolicyAsset.TermTaxAmount"
+    label = "Term Tax"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Summary TotalStandardAmount {
+    apiName = "InsurancePolicyAsset.TotalStandardAmount"
+    label = "Total Standard Amount"
+    _hidden_value = true
+  }
+  salesforce.Summary TotalTermAmount {
+    apiName = "InsurancePolicyAsset.TotalTermAmount"
+    label = "Total Term Amount"
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "InsurancePolicyAsset.Id"
+    label = "Insurance Policy Asset ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "InsurancePolicyAsset.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "InsurancePolicyAsset.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "InsurancePolicyAsset.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "InsurancePolicyAsset.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "InsurancePolicyAsset.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "InsurancePolicyAsset.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "InsurancePolicyAsset.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

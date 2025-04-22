@@ -1,0 +1,107 @@
+type salesforce.Award {
+  salesforce.Lookup AccountId {
+    apiName = "Award.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+  }
+  salesforce.DateTime AwardDate {
+    apiName = "Award.AwardDate"
+    label = "Award Date"
+  }
+  salesforce.Text AwardedBy {
+    apiName = "Award.AwardedBy"
+    label = "Awarded By"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup ContactId {
+    apiName = "Award.ContactId"
+    label = "Contact ID"
+    relationshipName = "Contact"
+  }
+  salesforce.Text Identifier {
+    apiName = "Award.Identifier"
+    label = "Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsActive {
+    apiName = "Award.IsActive"
+    label = "Active"
+    defaultValue = false
+  }
+  salesforce.Text Name {
+    apiName = "Award.Name"
+    label = "Award Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "Award.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Picklist Status {
+    apiName = "Award.Status"
+    label = "Status"
+    restricted = false
+  }
+  salesforce.Lookup UserId {
+    apiName = "Award.UserId"
+    label = "User ID"
+    relationshipName = "User"
+  }
+  salesforce.Picklist VerificationStatus {
+    apiName = "Award.VerificationStatus"
+    label = "Verification Status"
+    restricted = false
+  }
+  salesforce.DateTime VerifiedDate {
+    apiName = "Award.VerifiedDate"
+    label = "Verified On"
+  }
+  serviceid Id {
+    apiName = "Award.Id"
+    label = "Award ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "Award.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "Award.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "Award.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "Award.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "Award.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "Award.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

@@ -1,0 +1,153 @@
+type salesforce.BusinessLicense {
+  salesforce.Lookup AccountId {
+    apiName = "BusinessLicense.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+  }
+  salesforce.Lookup ContactId {
+    apiName = "BusinessLicense.ContactId"
+    label = "Contact ID"
+    relationshipName = "Contact"
+  }
+  salesforce.Text Identifier {
+    apiName = "BusinessLicense.Identifier"
+    label = "Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsActive {
+    apiName = "BusinessLicense.IsActive"
+    label = "Is Active"
+    defaultValue = false
+  }
+  salesforce.Text Issuer {
+    apiName = "BusinessLicense.Issuer"
+    label = "Issuer"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text JurisdictionCountry {
+    apiName = "BusinessLicense.JurisdictionCountry"
+    label = "Jurisdiction Country"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text JurisdictionOther {
+    apiName = "BusinessLicense.JurisdictionOther"
+    label = "Jurisdiction Other"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text JurisdictionState {
+    apiName = "BusinessLicense.JurisdictionState"
+    label = "Jurisdiction State"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist JurisdictionType {
+    apiName = "BusinessLicense.JurisdictionType"
+    label = "Jurisdiction Type"
+    restricted = false
+  }
+  salesforce.Picklist LicenseClass {
+    apiName = "BusinessLicense.LicenseClass"
+    inlineHelpText = "Specifies the types of licenses that an organization wants to track."
+    label = "License Class"
+    restricted = false
+  }
+  salesforce.Picklist LineOfAuthority {
+    apiName = "BusinessLicense.LineOfAuthority"
+    label = "Line Of Authority"
+    restricted = false
+  }
+  salesforce.Text Name {
+    apiName = "BusinessLicense.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "BusinessLicense.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.DateTime PeriodEnd {
+    apiName = "BusinessLicense.PeriodEnd"
+    label = "Period End"
+  }
+  salesforce.DateTime PeriodStart {
+    apiName = "BusinessLicense.PeriodStart"
+    label = "Period Start"
+  }
+  salesforce.Picklist ResidenceStatus {
+    apiName = "BusinessLicense.ResidenceStatus"
+    label = "Residence Status"
+    restricted = false
+  }
+  salesforce.Picklist Status {
+    apiName = "BusinessLicense.Status"
+    label = "Status"
+    restricted = false
+  }
+  salesforce.Lookup UserId {
+    apiName = "BusinessLicense.UserId"
+    label = "User ID"
+    relationshipName = "User"
+  }
+  salesforce.Picklist VerificationStatus {
+    apiName = "BusinessLicense.VerificationStatus"
+    label = "Verification Status"
+    restricted = false
+  }
+  salesforce.Date VerifiedDate {
+    apiName = "BusinessLicense.VerifiedDate"
+    label = "Verified On"
+  }
+  serviceid Id {
+    apiName = "BusinessLicense.Id"
+    label = "Business License ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "BusinessLicense.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "BusinessLicense.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "BusinessLicense.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "BusinessLicense.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "BusinessLicense.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "BusinessLicense.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

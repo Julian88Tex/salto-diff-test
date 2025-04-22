@@ -1,0 +1,75 @@
+type salesforce.Producer {
+  salesforce.Lookup AccountId {
+    apiName = "Producer.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+  }
+  salesforce.Lookup ContactId {
+    apiName = "Producer.ContactId"
+    label = "Contact ID"
+    relationshipName = "Contact"
+  }
+  salesforce.Lookup InternalUserId {
+    apiName = "Producer.InternalUserId"
+    label = "User ID"
+    relationshipName = "InternalUser"
+  }
+  salesforce.Text Name {
+    apiName = "Producer.Name"
+    label = "Producer Identifier"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "Producer.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Picklist Type {
+    apiName = "Producer.Type"
+    label = "Type"
+    restricted = false
+  }
+  serviceid Id {
+    apiName = "Producer.Id"
+    label = "Producer ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "Producer.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "Producer.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "Producer.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "Producer.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "Producer.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "Producer.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

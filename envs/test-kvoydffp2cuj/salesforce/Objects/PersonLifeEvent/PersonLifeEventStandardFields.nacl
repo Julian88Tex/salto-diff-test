@@ -1,0 +1,120 @@
+type salesforce.PersonLifeEvent {
+  salesforce.DateTime EventDate {
+    apiName = "PersonLifeEvent.EventDate"
+    label = "Event Date"
+    _required = true
+  }
+  salesforce.LongTextArea EventDescription {
+    apiName = "PersonLifeEvent.EventDescription"
+    label = "Event Description"
+    length = 32000
+  }
+  salesforce.Address EventLocation {
+    apiName = "PersonLifeEvent.EventLocation"
+    label = "Event Location"
+    _hidden_value = true
+  }
+  salesforce.Picklist EventType {
+    apiName = "PersonLifeEvent.EventType"
+    label = "Event Type"
+    _required = true
+    restricted = false
+  }
+  salesforce.DateTime ExpirationDate {
+    apiName = "PersonLifeEvent.ExpirationDate"
+    label = "Expiration Date"
+  }
+  salesforce.LongTextArea ExpirationDescription {
+    apiName = "PersonLifeEvent.ExpirationDescription"
+    label = "Expiration Description"
+    length = 32000
+  }
+  salesforce.Checkbox IsExpired {
+    apiName = "PersonLifeEvent.IsExpired"
+    label = "Expired"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsTentative {
+    apiName = "PersonLifeEvent.IsTentative"
+    label = "Tentative"
+    defaultValue = false
+  }
+  salesforce.Text Name {
+    apiName = "PersonLifeEvent.Name"
+    label = "Event Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "PersonLifeEvent.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.MasterDetail PrimaryPersonId {
+    apiName = "PersonLifeEvent.PrimaryPersonId"
+    label = "Contact ID"
+    _required = true
+    relationshipName = "PrimaryPerson"
+  }
+  salesforce.Lookup RelatedPersonId {
+    apiName = "PersonLifeEvent.RelatedPersonId"
+    label = "Contact ID"
+    relationshipName = "RelatedPerson"
+  }
+  salesforce.Text SourceSystem {
+    apiName = "PersonLifeEvent.SourceSystem"
+    label = "Source System"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "PersonLifeEvent.SourceSystemIdentifier"
+    label = "Source System Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "PersonLifeEvent.Id"
+    label = "Person Life Event ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "PersonLifeEvent.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "PersonLifeEvent.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "PersonLifeEvent.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "PersonLifeEvent.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "PersonLifeEvent.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "PersonLifeEvent.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

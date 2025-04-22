@@ -1,0 +1,206 @@
+type salesforce.InsurancePolicyParticipant {
+  salesforce.Percent BeneficiarySharePercentage {
+    apiName = "InsurancePolicyParticipant.BeneficiarySharePercentage"
+    label = "Beneficiary Share Percentage"
+    scale = 0
+    precision = 3
+  }
+  salesforce.DateTime EffectiveDate {
+    apiName = "InsurancePolicyParticipant.EffectiveDate"
+    label = "Effective Date"
+  }
+  salesforce.Unknown EffectiveFromDate {
+    apiName = "InsurancePolicyParticipant.EffectiveFromDate"
+    _hidden_value = true
+  }
+  salesforce.Unknown EffectiveToDate {
+    apiName = "InsurancePolicyParticipant.EffectiveToDate"
+    _hidden_value = true
+  }
+  salesforce.DateTime ExpirationDate {
+    apiName = "InsurancePolicyParticipant.ExpirationDate"
+    label = "Expiration Date"
+  }
+  salesforce.MasterDetail InsurancePolicyId {
+    apiName = "InsurancePolicyParticipant.InsurancePolicyId"
+    label = "Insurance Policy ID"
+    _required = true
+    relationshipName = "InsurancePolicy"
+  }
+  salesforce.Checkbox IsActiveParticipant {
+    apiName = "InsurancePolicyParticipant.IsActiveParticipant"
+    label = "Active Participant"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsMinorBeneficiary {
+    apiName = "InsurancePolicyParticipant.IsMinorBeneficiary"
+    label = "Minor Beneficiary"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsPolicyholder {
+    apiName = "InsurancePolicyParticipant.IsPolicyholder"
+    label = "Policy holder"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.Lookup LegalGuardianId {
+    apiName = "InsurancePolicyParticipant.LegalGuardianId"
+    label = "Account ID"
+    relationshipName = "LegalGuardian"
+  }
+  salesforce.Text ParticipantCode {
+    apiName = "InsurancePolicyParticipant.ParticipantCode"
+    label = "Participant Code"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Unknown ParticipantName {
+    apiName = "InsurancePolicyParticipant.ParticipantName"
+    _hidden_value = true
+  }
+  salesforce.Lookup PrimaryParticipantAccountId {
+    apiName = "InsurancePolicyParticipant.PrimaryParticipantAccountId"
+    label = "Account ID"
+    relationshipName = "PrimaryParticipantAccount"
+  }
+  salesforce.Lookup PrimaryParticipantContactId {
+    apiName = "InsurancePolicyParticipant.PrimaryParticipantContactId"
+    label = "Contact ID"
+    relationshipName = "PrimaryParticipantContact"
+  }
+  salesforce.Lookup ProductId {
+    apiName = "InsurancePolicyParticipant.ProductId"
+    _hidden_value = true
+  }
+  salesforce.Lookup RelatedInsPolicyParticipantId {
+    apiName = "InsurancePolicyParticipant.RelatedInsPolicyParticipantId"
+    _hidden_value = true
+  }
+  salesforce.Lookup RelatedParticipantAccountId {
+    apiName = "InsurancePolicyParticipant.RelatedParticipantAccountId"
+    label = "Account ID"
+    relationshipName = "RelatedParticipantAccount"
+  }
+  salesforce.Lookup RelatedParticipantContactId {
+    apiName = "InsurancePolicyParticipant.RelatedParticipantContactId"
+    label = "Contact ID"
+    relationshipName = "RelatedParticipantContact"
+  }
+  salesforce.Picklist RelationshipToInsured {
+    apiName = "InsurancePolicyParticipant.RelationshipToInsured"
+    label = "Relationship to Insured"
+    restricted = false
+  }
+  salesforce.Picklist Role {
+    apiName = "InsurancePolicyParticipant.Role"
+    label = "Role"
+    _required = true
+    restricted = false
+    visibleLines = 0
+  }
+  salesforce.Text SourceSystem {
+    apiName = "InsurancePolicyParticipant.SourceSystem"
+    label = "Source System"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "InsurancePolicyParticipant.SourceSystemIdentifier"
+    label = "Source System ID"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  salesforce.Currency StandardFeeAmount {
+    apiName = "InsurancePolicyParticipant.StandardFeeAmount"
+    label = "Standard Fee"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency StandardPremiumAmount {
+    apiName = "InsurancePolicyParticipant.StandardPremiumAmount"
+    label = "Standard Premium"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency StandardTaxAmount {
+    apiName = "InsurancePolicyParticipant.StandardTaxAmount"
+    label = "Standard Tax"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency TermFeeAmount {
+    apiName = "InsurancePolicyParticipant.TermFeeAmount"
+    label = "Term Fee"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency TermPremiumAmount {
+    apiName = "InsurancePolicyParticipant.TermPremiumAmount"
+    label = "Term Premium"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency TermTaxAmount {
+    apiName = "InsurancePolicyParticipant.TermTaxAmount"
+    label = "Term Tax"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Summary TotalStandardAmount {
+    apiName = "InsurancePolicyParticipant.TotalStandardAmount"
+    label = "Total Standard Amount"
+    _hidden_value = true
+  }
+  salesforce.Summary TotalTermAmount {
+    apiName = "InsurancePolicyParticipant.TotalTermAmount"
+    label = "Total Term Amount"
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "InsurancePolicyParticipant.Id"
+    label = "Insurance Policy Participant ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "InsurancePolicyParticipant.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "InsurancePolicyParticipant.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "InsurancePolicyParticipant.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "InsurancePolicyParticipant.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "InsurancePolicyParticipant.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "InsurancePolicyParticipant.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "InsurancePolicyParticipant.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

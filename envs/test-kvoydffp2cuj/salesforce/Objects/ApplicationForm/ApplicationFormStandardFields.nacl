@@ -1,0 +1,91 @@
+type salesforce.ApplicationForm {
+  salesforce.Lookup AccountId {
+    apiName = "ApplicationForm.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+    _hidden_value = true
+  }
+  salesforce.Lookup BranchUnitId {
+    apiName = "ApplicationForm.BranchUnitId"
+    _hidden_value = true
+  }
+  salesforce.Lookup LeadId {
+    apiName = "ApplicationForm.LeadId"
+    label = "Lead ID"
+    relationshipName = "Lead"
+    _hidden_value = true
+  }
+  salesforce.Lookup OpportunityId {
+    apiName = "ApplicationForm.OpportunityId"
+    label = "Opportunity ID"
+    relationshipName = "Opportunity"
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "ApplicationForm.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Picklist Stage {
+    apiName = "ApplicationForm.Stage"
+    label = "Stage"
+    restricted = false
+    _hidden_value = true
+  }
+  salesforce.Date SubmissionDate {
+    apiName = "ApplicationForm.SubmissionDate"
+    label = "Submission Date"
+    _hidden_value = true
+  }
+  salesforce.Picklist UsageType {
+    apiName = "ApplicationForm.UsageType"
+    label = "Usage Type"
+    restricted = true
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "ApplicationForm.Id"
+    label = "Application Form ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ApplicationForm.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "ApplicationForm.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ApplicationForm.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ApplicationForm.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ApplicationForm.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ApplicationForm.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ApplicationForm.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}
