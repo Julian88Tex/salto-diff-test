@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '4.0.1'
+project:
+    name: salto-diff-test
+    package:
+        name: salto-diff-test
+        api_version: '62.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/salto-diff-test/tests
+            options:
+                outputdir: robot/salto-diff-test/results
+
+    robot_testdoc:
+        options:
+            path: robot/salto-diff-test/tests
+            output: robot/salto-diff-test/doc/salto-diff-test_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
