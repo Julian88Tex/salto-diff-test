@@ -1,0 +1,94 @@
+type salesforce.PartyExpense {
+  salesforce.DateTime EndDateTime {
+    apiName = "PartyExpense.EndDateTime"
+    label = "End Date Time"
+  }
+  salesforce.Lookup PartyId {
+    apiName = "PartyExpense.PartyId"
+    label = "Party ID"
+    _required = true
+    relationshipName = "Party"
+  }
+  salesforce.Picklist RecurrenceInterval {
+    apiName = "PartyExpense.RecurrenceInterval"
+    label = "Recurrence Interval"
+    restricted = false
+  }
+  salesforce.DateTime StartDateTime {
+    apiName = "PartyExpense.StartDateTime"
+    label = "Start Date Time"
+  }
+  salesforce.Picklist Status {
+    apiName = "PartyExpense.Status"
+    label = "Status"
+    restricted = false
+  }
+  salesforce.Currency TotalAmount {
+    apiName = "PartyExpense.TotalAmount"
+    label = "Total Amount"
+    _required = true
+    scale = 2
+    precision = 18
+  }
+  salesforce.Picklist Type {
+    apiName = "PartyExpense.Type"
+    label = "Type"
+    _required = true
+    restricted = false
+  }
+  salesforce.Picklist UsageType {
+    apiName = "PartyExpense.UsageType"
+    label = "Usage Type"
+    restricted = true
+  }
+  serviceid Id {
+    apiName = "PartyExpense.Id"
+    label = "Party Expense ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "PartyExpense.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "PartyExpense.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "PartyExpense.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "PartyExpense.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "PartyExpense.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "PartyExpense.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "PartyExpense.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "PartyExpense.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

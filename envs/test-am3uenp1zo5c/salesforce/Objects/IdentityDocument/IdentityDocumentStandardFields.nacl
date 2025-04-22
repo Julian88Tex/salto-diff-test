@@ -1,0 +1,89 @@
+type salesforce.IdentityDocument {
+  salesforce.Date ExpirationDate {
+    apiName = "IdentityDocument.ExpirationDate"
+    label = "Expiration Date"
+  }
+  salesforce.Picklist IdDocumentType {
+    apiName = "IdentityDocument.IdDocumentType"
+    label = "Document Type"
+  }
+  salesforce.Date IssueDate {
+    apiName = "IdentityDocument.IssueDate"
+    label = "Issue Date"
+  }
+  salesforce.Text IssuingAuthority {
+    apiName = "IdentityDocument.IssuingAuthority"
+    label = "Issuing Authority/Country"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text Name {
+    apiName = "IdentityDocument.Name"
+    label = "Document Number"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup RelatedLegalEntityId {
+    apiName = "IdentityDocument.RelatedLegalEntityId"
+    label = "Related Legal Entity ID"
+    _required = true
+    relationshipName = "RelatedLegalEntity"
+  }
+  salesforce.Lookup VerifiedById {
+    apiName = "IdentityDocument.VerifiedById"
+    label = "User ID"
+    relationshipName = "VerifiedBy"
+  }
+  salesforce.DateTime VerifiedOn {
+    apiName = "IdentityDocument.VerifiedOn"
+    label = "Verified On"
+  }
+  serviceid Id {
+    apiName = "IdentityDocument.Id"
+    label = "Identity Document ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "IdentityDocument.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "IdentityDocument.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "IdentityDocument.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "IdentityDocument.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "IdentityDocument.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "IdentityDocument.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "IdentityDocument.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

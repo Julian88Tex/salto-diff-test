@@ -1,0 +1,101 @@
+type salesforce.InsuranceContract {
+  salesforce.Lookup BrokerageAgencyId {
+    apiName = "InsuranceContract.BrokerageAgencyId"
+    label = "Producer ID"
+    relationshipName = "BrokerageAgency"
+  }
+  salesforce.Lookup BusinessLicenseId {
+    apiName = "InsuranceContract.BusinessLicenseId"
+    label = "Business License ID"
+    relationshipName = "BusinessLicense"
+  }
+  salesforce.MasterDetail ContractId {
+    apiName = "InsuranceContract.ContractId"
+    label = "Contract ID"
+    _required = true
+    relationshipName = "Contract"
+  }
+  salesforce.Lookup EnrollmentCensusId {
+    apiName = "InsuranceContract.EnrollmentCensusId"
+    label = "Group Census ID"
+    relationshipName = "EnrollmentCensus"
+  }
+  salesforce.Date EnrollmentEndDate {
+    apiName = "InsuranceContract.EnrollmentEndDate"
+    label = "Enrollment End Date"
+  }
+  salesforce.Date EnrollmentStartDate {
+    apiName = "InsuranceContract.EnrollmentStartDate"
+    label = "Enrollment Start Date"
+  }
+  salesforce.Number EnrollmentWaitingPeriod {
+    apiName = "InsuranceContract.EnrollmentWaitingPeriod"
+    label = "Enrollment Waiting Period"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Text Name {
+    apiName = "InsuranceContract.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "InsuranceContract.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Lookup ProducerId {
+    apiName = "InsuranceContract.ProducerId"
+    label = "Producer ID"
+    relationshipName = "Producer"
+  }
+  salesforce.Lookup UnderwriterId {
+    apiName = "InsuranceContract.UnderwriterId"
+    label = "User ID"
+    relationshipName = "Underwriter"
+  }
+  serviceid Id {
+    apiName = "InsuranceContract.Id"
+    label = "Insurance Contract ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "InsuranceContract.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "InsuranceContract.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "InsuranceContract.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "InsuranceContract.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "InsuranceContract.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "InsuranceContract.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

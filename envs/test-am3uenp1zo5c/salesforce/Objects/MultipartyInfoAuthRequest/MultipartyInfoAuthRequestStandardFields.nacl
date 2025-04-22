@@ -1,0 +1,76 @@
+type salesforce.MultipartyInfoAuthRequest {
+  salesforce.Picklist AuthorizationType {
+    apiName = "MultipartyInfoAuthRequest.AuthorizationType"
+    label = "Authorization Type"
+    restricted = true
+  }
+  salesforce.Lookup DataUsePurposeId {
+    apiName = "MultipartyInfoAuthRequest.DataUsePurposeId"
+    label = "Data Use Purpose ID"
+    _required = true
+    relationshipName = "DataUsePurpose"
+  }
+  salesforce.Text Name {
+    apiName = "MultipartyInfoAuthRequest.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "MultipartyInfoAuthRequest.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Picklist ResponseStatus {
+    apiName = "MultipartyInfoAuthRequest.ResponseStatus"
+    label = "Response Status"
+    restricted = true
+  }
+  salesforce.Lookup SourceRecordId {
+    apiName = "MultipartyInfoAuthRequest.SourceRecordId"
+    label = "Source Record ID"
+    relationshipName = "SourceRecord"
+  }
+  serviceid Id {
+    apiName = "MultipartyInfoAuthRequest.Id"
+    label = "Multiparty Information Authorization Request ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "MultipartyInfoAuthRequest.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "MultipartyInfoAuthRequest.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "MultipartyInfoAuthRequest.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "MultipartyInfoAuthRequest.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "MultipartyInfoAuthRequest.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "MultipartyInfoAuthRequest.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

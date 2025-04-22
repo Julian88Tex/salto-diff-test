@@ -1,0 +1,127 @@
+type salesforce.InsuranceProfile {
+  salesforce.MasterDetail ContactId {
+    apiName = "InsuranceProfile.ContactId"
+    label = "Contact ID"
+    _required = true
+    relationshipName = "Contact"
+  }
+  salesforce.Checkbox IsAlcoholAbuser {
+    apiName = "InsuranceProfile.IsAlcoholAbuser"
+    label = "Alcohol Abuse"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsAlcoholConsumer {
+    apiName = "InsuranceProfile.IsAlcoholConsumer"
+    label = "Consumes Alcohol"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsDrugAbuser {
+    apiName = "InsuranceProfile.IsDrugAbuser"
+    label = "Drug Abuse"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsGoodDriver {
+    apiName = "InsuranceProfile.IsGoodDriver"
+    label = "Good Driver"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsGoodStudent {
+    apiName = "InsuranceProfile.IsGoodStudent"
+    label = "Good Student"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsHighRiskOccupation {
+    apiName = "InsuranceProfile.IsHighRiskOccupation"
+    label = "High Risk Occupation"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsLicenseSuspended {
+    apiName = "InsuranceProfile.IsLicenseSuspended"
+    label = "License suspended"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsTobaccoConsumer {
+    apiName = "InsuranceProfile.IsTobaccoConsumer"
+    label = "Consumes Tobacco"
+    defaultValue = false
+  }
+  salesforce.Number MajorCitationCount {
+    apiName = "InsuranceProfile.MajorCitationCount"
+    label = "Major Citation Count"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Number MinorCitationCount {
+    apiName = "InsuranceProfile.MinorCitationCount"
+    label = "Minor Citation Count"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Number NumberOfAccidents {
+    apiName = "InsuranceProfile.NumberOfAccidents"
+    label = "Number of Accidents"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Text SourceSystem {
+    apiName = "InsuranceProfile.SourceSystem"
+    label = "Source System"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "InsuranceProfile.SourceSystemIdentifier"
+    label = "Source System Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "InsuranceProfile.Id"
+    label = "Insurance Profile ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "InsuranceProfile.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "InsuranceProfile.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "InsuranceProfile.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "InsuranceProfile.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "InsuranceProfile.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "InsuranceProfile.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "InsuranceProfile.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

@@ -1,0 +1,112 @@
+type salesforce.RecurrenceSchedule {
+  serviceid Id {
+    apiName = "RecurrenceSchedule.Id"
+    label = "Recurrence Schedule ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "RecurrenceSchedule.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "RecurrenceSchedule.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.Text Name {
+    apiName = "RecurrenceSchedule.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "RecurrenceSchedule.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "RecurrenceSchedule.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "RecurrenceSchedule.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "RecurrenceSchedule.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "RecurrenceSchedule.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Picklist Status {
+    apiName = "RecurrenceSchedule.Status"
+    label = "Status"
+    restricted = true
+  }
+  salesforce.Picklist ProcessName {
+    apiName = "RecurrenceSchedule.ProcessName"
+    label = "Process Name"
+    _required = true
+    restricted = true
+  }
+  salesforce.Picklist ScheduleFrequency {
+    apiName = "RecurrenceSchedule.ScheduleFrequency"
+    label = "Schedule Frequency"
+    _required = true
+    restricted = true
+  }
+  salesforce.Number ScheduleDayValue {
+    apiName = "RecurrenceSchedule.ScheduleDayValue"
+    label = "Schedule Day Value"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.DateTime StartDate {
+    apiName = "RecurrenceSchedule.StartDate"
+    label = "Start Date"
+    _required = true
+  }
+  salesforce.Date EndDate {
+    apiName = "RecurrenceSchedule.EndDate"
+    label = "End Date"
+  }
+  salesforce.Number TotalRecurrencesCount {
+    apiName = "RecurrenceSchedule.TotalRecurrencesCount"
+    label = "Total Recurrences Count"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Number CompletedScheduleCount {
+    apiName = "RecurrenceSchedule.CompletedScheduleCount"
+    label = "Completed Schedule Count"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.DateTime NextScheduleDateTime {
+    apiName = "RecurrenceSchedule.NextScheduleDateTime"
+    label = "Next Schedule Date Time"
+    _required = true
+  }
+  salesforce.Lookup ReferenceRecordId {
+    apiName = "RecurrenceSchedule.ReferenceRecordId"
+    label = "ReferenceRecord ID"
+    relationshipName = "ReferenceRecord"
+  }
+}

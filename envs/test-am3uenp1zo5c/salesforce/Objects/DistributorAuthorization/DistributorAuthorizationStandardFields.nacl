@@ -1,0 +1,97 @@
+type salesforce.DistributorAuthorization {
+  salesforce.Lookup AccountId {
+    apiName = "DistributorAuthorization.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+  }
+  salesforce.Lookup AuthorizedInsuranceLineId {
+    apiName = "DistributorAuthorization.AuthorizedInsuranceLineId"
+    label = "Authorized Insurance Line ID"
+    relationshipName = "AuthorizedInsuranceLine"
+  }
+  salesforce.Lookup ContactId {
+    apiName = "DistributorAuthorization.ContactId"
+    label = "Contact ID"
+    relationshipName = "Contact"
+  }
+  salesforce.Date EffectiveDate {
+    apiName = "DistributorAuthorization.EffectiveDate"
+    label = "Effective Date"
+  }
+  salesforce.Date ExpirationDate {
+    apiName = "DistributorAuthorization.ExpirationDate"
+    label = "Expiration Date"
+  }
+  salesforce.Checkbox IsActive {
+    apiName = "DistributorAuthorization.IsActive"
+    label = "Active"
+    defaultValue = false
+  }
+  salesforce.Lookup LicenseId {
+    apiName = "DistributorAuthorization.LicenseId"
+    label = "Business License ID"
+    relationshipName = "License"
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "DistributorAuthorization.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Picklist Status {
+    apiName = "DistributorAuthorization.Status"
+    label = "Status"
+    restricted = false
+  }
+  salesforce.Text TerminationCause {
+    apiName = "DistributorAuthorization.TerminationCause"
+    label = "Termination Cause"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "DistributorAuthorization.Id"
+    label = "Distributor Authorization ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "DistributorAuthorization.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "DistributorAuthorization.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "DistributorAuthorization.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "DistributorAuthorization.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "DistributorAuthorization.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "DistributorAuthorization.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "DistributorAuthorization.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

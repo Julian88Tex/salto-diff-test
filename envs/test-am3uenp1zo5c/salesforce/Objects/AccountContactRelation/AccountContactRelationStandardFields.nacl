@@ -1,0 +1,79 @@
+type salesforce.AccountContactRelation {
+  salesforce.Lookup AccountId {
+    apiName = "AccountContactRelation.AccountId"
+    label = "Account ID"
+    _required = true
+    relationshipName = "Account"
+  }
+  salesforce.Lookup ContactId {
+    apiName = "AccountContactRelation.ContactId"
+    label = "Contact ID"
+    _required = true
+    relationshipName = "Contact"
+  }
+  salesforce.Date EndDate {
+    apiName = "AccountContactRelation.EndDate"
+    label = "End Date"
+  }
+  salesforce.Checkbox IsActive {
+    apiName = "AccountContactRelation.IsActive"
+    label = "Active"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsDirect {
+    apiName = "AccountContactRelation.IsDirect"
+    label = "Direct"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.Picklist Roles {
+    apiName = "AccountContactRelation.Roles"
+    label = "Roles"
+    restricted = false
+    visibleLines = 0
+    valueSetName = salesforce.StandardValueSet.instance.ContractContactRole
+  }
+  salesforce.Date StartDate {
+    apiName = "AccountContactRelation.StartDate"
+    label = "Start Date"
+  }
+  serviceid Id {
+    apiName = "AccountContactRelation.Id"
+    label = "Account Contact Relationship ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "AccountContactRelation.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "AccountContactRelation.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "AccountContactRelation.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "AccountContactRelation.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "AccountContactRelation.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "AccountContactRelation.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

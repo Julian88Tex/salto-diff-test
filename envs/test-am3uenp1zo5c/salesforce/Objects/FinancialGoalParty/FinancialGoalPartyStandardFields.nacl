@@ -1,0 +1,58 @@
+type salesforce.FinancialGoalParty {
+  salesforce.Lookup AccountId {
+    apiName = "FinancialGoalParty.AccountId"
+    label = "Account ID"
+    _required = true
+    relationshipName = "Account"
+  }
+  salesforce.MasterDetail FinancialGoalId {
+    apiName = "FinancialGoalParty.FinancialGoalId"
+    label = "Financial Goal ID"
+    _required = true
+    relationshipName = "FinancialGoal"
+  }
+  serviceid Id {
+    apiName = "FinancialGoalParty.Id"
+    label = "Financial Goal Party ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "FinancialGoalParty.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "FinancialGoalParty.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "FinancialGoalParty.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "FinancialGoalParty.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "FinancialGoalParty.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "FinancialGoalParty.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "FinancialGoalParty.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

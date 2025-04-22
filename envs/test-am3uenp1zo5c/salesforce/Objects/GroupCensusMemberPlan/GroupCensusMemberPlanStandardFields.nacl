@@ -1,0 +1,70 @@
+type salesforce.GroupCensusMemberPlan {
+  salesforce.Lookup ContractGroupPlanId {
+    apiName = "GroupCensusMemberPlan.ContractGroupPlanId"
+    label = "Contract Group Plan ID"
+    relationshipName = "ContractGroupPlan"
+  }
+  salesforce.Picklist EnrollmentStatus {
+    apiName = "GroupCensusMemberPlan.EnrollmentStatus"
+    label = "Enrollment Status"
+    restricted = true
+  }
+  salesforce.Lookup GroupCensusMemberId {
+    apiName = "GroupCensusMemberPlan.GroupCensusMemberId"
+    label = "Group Census Member ID"
+    relationshipName = "GroupCensusMember"
+  }
+  salesforce.Text Name {
+    apiName = "GroupCensusMemberPlan.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "GroupCensusMemberPlan.Id"
+    label = "Group Census Member Plan ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "GroupCensusMemberPlan.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "GroupCensusMemberPlan.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "GroupCensusMemberPlan.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "GroupCensusMemberPlan.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "GroupCensusMemberPlan.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "GroupCensusMemberPlan.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "GroupCensusMemberPlan.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

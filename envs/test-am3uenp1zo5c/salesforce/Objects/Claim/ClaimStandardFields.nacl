@@ -1,0 +1,251 @@
+type salesforce.Claim {
+  salesforce.Lookup AccountId {
+    apiName = "Claim.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+  }
+  salesforce.Currency ActualAmount {
+    apiName = "Claim.ActualAmount"
+    label = "Actual Amount"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Currency ApprovedAmount {
+    apiName = "Claim.ApprovedAmount"
+    label = "Approved Amount"
+    scale = 2
+    precision = 18
+  }
+  salesforce.DateTime AssessmentDate {
+    apiName = "Claim.AssessmentDate"
+    label = "Assessment Date"
+  }
+  salesforce.Lookup CaseId {
+    apiName = "Claim.CaseId"
+    label = "Case ID"
+    relationshipName = "Case"
+  }
+  salesforce.Text ClaimReason {
+    apiName = "Claim.ClaimReason"
+    label = "Claim Reason"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist ClaimReasonType {
+    apiName = "Claim.ClaimReasonType"
+    label = "Claim Reason Type"
+    restricted = false
+  }
+  salesforce.Picklist ClaimType {
+    apiName = "Claim.ClaimType"
+    label = "Claim Type"
+    restricted = false
+  }
+  salesforce.Currency EstimatedAmount {
+    apiName = "Claim.EstimatedAmount"
+    label = "Estimated Amount"
+    scale = 2
+    precision = 18
+  }
+  salesforce.DateTime FinalizedDate {
+    apiName = "Claim.FinalizedDate"
+    label = "Finalized Date"
+  }
+  salesforce.Picklist FinancialAuthorityStatus {
+    apiName = "Claim.FinancialAuthorityStatus"
+    label = "Financial Authority Status"
+    restricted = true
+  }
+  salesforce.Picklist FnolChannel {
+    apiName = "Claim.FnolChannel"
+    label = "FNOL Channel"
+    restricted = false
+  }
+  salesforce.Address IncidentSite {
+    apiName = "Claim.IncidentSite"
+    label = "Incident Site"
+    _hidden_value = true
+  }
+  salesforce.DateTime InitiationDate {
+    apiName = "Claim.InitiationDate"
+    label = "Initiation Date"
+  }
+  salesforce.Lookup InsuredAssetId {
+    apiName = "Claim.InsuredAssetId"
+    label = "Insurance Policy Asset ID"
+    relationshipName = "InsuredAsset"
+  }
+  salesforce.Checkbox IsAuthoritiesNotified {
+    apiName = "Claim.IsAuthoritiesNotified"
+    label = "Authorities Notified"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsClosed {
+    apiName = "Claim.IsClosed"
+    label = "Closed"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDrivable {
+    apiName = "Claim.IsDrivable"
+    label = "Drivable"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsInhabitable {
+    apiName = "Claim.IsInhabitable"
+    label = "Inhabitable"
+    defaultValue = false
+  }
+  salesforce.DateTime LossDate {
+    apiName = "Claim.LossDate"
+    label = "Loss Date"
+  }
+  salesforce.Picklist LossType {
+    apiName = "Claim.LossType"
+    label = "Loss Type"
+    restricted = false
+  }
+  salesforce.Text Name {
+    apiName = "Claim.Name"
+    label = "Claim Number"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "Claim.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Lookup PolicyNumberId {
+    apiName = "Claim.PolicyNumberId"
+    label = "Insurance Policy ID"
+    relationshipName = "PolicyNumber"
+  }
+  salesforce.Picklist RenewalChannel {
+    apiName = "Claim.RenewalChannel"
+    label = "Renewal Channel"
+    restricted = false
+  }
+  salesforce.Text RepairShop {
+    apiName = "Claim.RepairShop"
+    label = "Repair Shop"
+    length = 100
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.LongTextArea RepairShopLocation {
+    apiName = "Claim.RepairShopLocation"
+    label = "Repair Shop Location"
+    length = 32000
+  }
+  salesforce.DateTime ReportDate {
+    apiName = "Claim.ReportDate"
+    label = "Report Date"
+  }
+  salesforce.Text ReportNumber {
+    apiName = "Claim.ReportNumber"
+    label = "Report Number"
+    length = 100
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text ReportingAuthority {
+    apiName = "Claim.ReportingAuthority"
+    label = "Reporting Authority"
+    length = 100
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist Severity {
+    apiName = "Claim.Severity"
+    label = "Severity"
+    restricted = false
+    valueSetName = salesforce.StandardValueSet.instance.CasePriority
+  }
+  salesforce.Lookup SourceId {
+    apiName = "Claim.SourceId"
+    label = "Source ID"
+    relationshipName = "Source"
+  }
+  salesforce.Text SourceSystem {
+    apiName = "Claim.SourceSystem"
+    label = "Source System"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "Claim.SourceSystemIdentifier"
+    label = "Source System Identifier"
+    length = 255
+    unique = true
+    caseSensitive = false
+  }
+  salesforce.Picklist Status {
+    apiName = "Claim.Status"
+    label = "Status"
+    restricted = false
+  }
+  salesforce.LongTextArea Summary {
+    apiName = "Claim.Summary"
+    label = "Summary"
+    length = 32000
+  }
+  salesforce.Picklist UsageType {
+    apiName = "Claim.UsageType"
+    label = "Usage Type"
+    restricted = true
+  }
+  salesforce.DateTime VisitDate {
+    apiName = "Claim.VisitDate"
+    label = "Visit Date"
+  }
+  salesforce.LongTextArea VisitSite {
+    apiName = "Claim.VisitSite"
+    label = "Visit Site"
+    length = 32000
+  }
+  serviceid Id {
+    apiName = "Claim.Id"
+    label = "Claim ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "Claim.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "Claim.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "Claim.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "Claim.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "Claim.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "Claim.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

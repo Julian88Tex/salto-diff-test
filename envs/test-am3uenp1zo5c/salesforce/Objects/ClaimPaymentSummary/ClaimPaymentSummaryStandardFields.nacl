@@ -1,0 +1,81 @@
+type salesforce.ClaimPaymentSummary {
+  salesforce.DateTime CancellationDate {
+    apiName = "ClaimPaymentSummary.CancellationDate"
+    label = "Cancellation Date"
+  }
+  salesforce.MasterDetail ClaimId {
+    apiName = "ClaimPaymentSummary.ClaimId"
+    label = "Claim ID"
+    _required = true
+    relationshipName = "Claim"
+  }
+  salesforce.Text Name {
+    apiName = "ClaimPaymentSummary.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Currency PaymentAmount {
+    apiName = "ClaimPaymentSummary.PaymentAmount"
+    label = "Payment Amount"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Date PaymentDate {
+    apiName = "ClaimPaymentSummary.PaymentDate"
+    label = "Payment Date"
+  }
+  salesforce.Text PaymentIdentifier {
+    apiName = "ClaimPaymentSummary.PaymentIdentifier"
+    label = "Payment Identifier"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist PaymentStatus {
+    apiName = "ClaimPaymentSummary.PaymentStatus"
+    label = "Payment Status"
+    restricted = false
+  }
+  serviceid Id {
+    apiName = "ClaimPaymentSummary.Id"
+    label = "Claim Payment Summary ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ClaimPaymentSummary.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ClaimPaymentSummary.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ClaimPaymentSummary.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ClaimPaymentSummary.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ClaimPaymentSummary.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ClaimPaymentSummary.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

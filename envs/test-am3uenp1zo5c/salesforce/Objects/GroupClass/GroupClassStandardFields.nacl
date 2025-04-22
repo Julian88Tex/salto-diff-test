@@ -1,0 +1,94 @@
+type salesforce.GroupClass {
+  salesforce.MasterDetail AccountId {
+    apiName = "GroupClass.AccountId"
+    label = "Account ID"
+    _required = true
+    relationshipName = "Account"
+  }
+  salesforce.Picklist Category {
+    apiName = "GroupClass.Category"
+    label = "Category"
+    restricted = false
+  }
+  salesforce.Text Code {
+    apiName = "GroupClass.Code"
+    label = "Code"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text Description {
+    apiName = "GroupClass.Description"
+    label = "Description"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Date EffectiveEndDate {
+    apiName = "GroupClass.EffectiveEndDate"
+    label = "Effective End Date"
+  }
+  salesforce.Date EffectiveStartDate {
+    apiName = "GroupClass.EffectiveStartDate"
+    label = "Effective Start Date"
+  }
+  salesforce.Text Name {
+    apiName = "GroupClass.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup ParentGroupClassId {
+    apiName = "GroupClass.ParentGroupClassId"
+    label = "Group Class ID"
+    relationshipName = "ParentGroupClass"
+  }
+  salesforce.Picklist UsageType {
+    apiName = "GroupClass.UsageType"
+    label = "Usage Type"
+    _required = true
+    restricted = true
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "GroupClass.Id"
+    label = "Group Class ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "GroupClass.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "GroupClass.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "GroupClass.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "GroupClass.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "GroupClass.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "GroupClass.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

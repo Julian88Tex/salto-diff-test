@@ -1,0 +1,67 @@
+type salesforce.ActionPlnTmplItmDependency {
+  serviceid Id {
+    apiName = "ActionPlnTmplItmDependency.Id"
+    label = "Action Plan Template Item Dependency ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ActionPlnTmplItmDependency.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.Text Name {
+    apiName = "ActionPlnTmplItmDependency.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ActionPlnTmplItmDependency.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ActionPlnTmplItmDependency.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ActionPlnTmplItmDependency.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ActionPlnTmplItmDependency.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ActionPlnTmplItmDependency.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Lookup TemplateItemId {
+    apiName = "ActionPlnTmplItmDependency.TemplateItemId"
+    label = "Action Plan Template Item ID"
+    _required = true
+    relationshipName = "TemplateItem"
+  }
+  salesforce.Lookup PreviousTemplateItemId {
+    apiName = "ActionPlnTmplItmDependency.PreviousTemplateItemId"
+    label = "Action Plan Template Item ID"
+    _required = true
+    relationshipName = "PreviousTemplateItem"
+  }
+  salesforce.Picklist CreationType {
+    apiName = "ActionPlnTmplItmDependency.CreationType"
+    label = "Creation Type"
+    _required = true
+    restricted = true
+  }
+}

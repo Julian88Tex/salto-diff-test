@@ -1,0 +1,137 @@
+type salesforce.FinancialGoal {
+  salesforce.Currency ActualAmount {
+    apiName = "FinancialGoal.ActualAmount"
+    label = "Actual Amount"
+    scale = 0
+    precision = 18
+  }
+  salesforce.Picklist Category {
+    apiName = "FinancialGoal.Category"
+    label = "Category"
+    restricted = false
+  }
+  salesforce.Date CompletionDate {
+    apiName = "FinancialGoal.CompletionDate"
+    label = "Completion Date"
+  }
+  salesforce.Text Description {
+    apiName = "FinancialGoal.Description"
+    label = "Description"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Percent EstimatedSuccessPercent {
+    apiName = "FinancialGoal.EstimatedSuccessPercent"
+    label = "Estimated Success Percent"
+    scale = 0
+    precision = 3
+  }
+  salesforce.Lookup FinancialPlanId {
+    apiName = "FinancialGoal.FinancialPlanId"
+    label = "Financial Plan ID"
+    relationshipName = "FinancialPlan"
+  }
+  salesforce.Picklist Frequency {
+    apiName = "FinancialGoal.Frequency"
+    label = "Withdrawal Frequency"
+    restricted = false
+  }
+  salesforce.Currency InitialAmount {
+    apiName = "FinancialGoal.InitialAmount"
+    label = "Initial Amount"
+    scale = 0
+    precision = 18
+  }
+  salesforce.Text Name {
+    apiName = "FinancialGoal.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "FinancialGoal.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Picklist Priority {
+    apiName = "FinancialGoal.Priority"
+    label = "Priority"
+    restricted = true
+  }
+  salesforce.Text SourceSystemIdentifier {
+    apiName = "FinancialGoal.SourceSystemIdentifier"
+    label = "Source System Identifier"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Date StartDate {
+    apiName = "FinancialGoal.StartDate"
+    label = "Start Date"
+  }
+  salesforce.Picklist Status {
+    apiName = "FinancialGoal.Status"
+    label = "Status"
+    _required = true
+    restricted = true
+  }
+  salesforce.Currency TargetAmount {
+    apiName = "FinancialGoal.TargetAmount"
+    label = "Target Amount"
+    scale = 0
+    precision = 18
+  }
+  salesforce.Date TargetDate {
+    apiName = "FinancialGoal.TargetDate"
+    label = "Target Date"
+  }
+  salesforce.Picklist Type {
+    apiName = "FinancialGoal.Type"
+    label = "Type"
+    _required = true
+    restricted = false
+  }
+  serviceid Id {
+    apiName = "FinancialGoal.Id"
+    label = "Financial Goal ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "FinancialGoal.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "FinancialGoal.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "FinancialGoal.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "FinancialGoal.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "FinancialGoal.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "FinancialGoal.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}
