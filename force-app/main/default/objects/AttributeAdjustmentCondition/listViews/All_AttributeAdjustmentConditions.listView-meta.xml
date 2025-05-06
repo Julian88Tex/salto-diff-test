@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AttributeAdjustmentConditions</fullName>
+    <columns>Name</columns>
+    <columns>AttributeBasedAdjRule</columns>
+    <columns>AttributeDefinition</columns>
+    <columns>Product</columns>
+    <columns>Operator</columns>
+    <columns>StringValue</columns>
+    <columns>BooleanValue</columns>
+    <columns>DoubleValue</columns>
+    <columns>IntegerValue</columns>
+    <columns>DateValue</columns>
+    <columns>DateTimeValue</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Attribute Adjustment Conditions</label>
+</ListView>

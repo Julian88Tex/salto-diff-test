@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Radius</fullName>
+    <type>Number</type>
+    <required>true</required>
+    <scale>0</scale>
+    <precision>9</precision>
+    <unique>false</unique>
+    <inlineHelpText>Enter a distance between 100 to 5,000 meters. The action is triggered when the mobile worker is within the radius of the associated record.</inlineHelpText>
+</CustomField>

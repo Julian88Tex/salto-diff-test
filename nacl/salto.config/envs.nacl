@@ -1,0 +1,10 @@
+envs {
+  envs = [
+    {
+      name = "RLM 2"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationProviderDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <apexClass>DeliveryTrackingService</apexClass>
+    <description>async apex interface to track delivery status</description>
+    <developerName>TrackDeliveryAsync</developerName>
+    <integrationProviderAttributes>
+        <dataType>String</dataType>
+        <developerName>Named_Credential</developerName>
+        <label>Named Credential</label>
+        <required>true</required>
+        <stringValue>LogisticsSystemNC</stringValue>
+        <trueOrFalseValue>false</trueOrFalseValue>
+    </integrationProviderAttributes>
+    <integrationProviderAttributes>
+        <dataType>Integer</dataType>
+        <developerName>TimeoutMs</developerName>
+        <integerValue>10000</integerValue>
+        <label>Timeout (ms)</label>
+        <required>true</required>
+        <trueOrFalseValue>false</trueOrFalseValue>
+    </integrationProviderAttributes>
+    <providerLabel>TrackDeliveryAsync</providerLabel>
+    <type>Apex</type>
+</IntegrationProviderDef>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Dynamic Revenue Orchestrator</label>
+    <navType>Console</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-Order</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-FulfillmentWorkspace</tabs>
+    <tabs>standard-FulfillmentPlan</tabs>
+    <tabs>standard-ProductFulfillmentDecompRule</tabs>
+    <tabs>standard-ProductFulfillmentScenario</tabs>
+    <uiType>Lightning</uiType>
+    <workspaceConfig>
+        <mappings>
+            <tab>standard-FulfillmentPlan</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-FulfillmentWorkspace</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Order</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Product2</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ProductFulfillmentDecompRule</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ProductFulfillmentScenario</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Task</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

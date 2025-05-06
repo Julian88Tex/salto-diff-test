@@ -1,0 +1,6 @@
+Hello,
+
+Your request to approve the version : {!DocumentClause.Version} of Clause {!DocumentClause.Name} in {!DocumentClause.Language} has been {!ApprovalRequest.Status}
+
+Regards,
+Clause Designer Team
