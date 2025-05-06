@@ -1,0 +1,6 @@
+salesforce.ProductConfigurationFlow "127WU0000000sYHYAY" {
+  FlowIdentifier = "ProductConfig2"
+  IsDefault = false
+  Status = "Draft"
+  _alias = "00000001"
+}
