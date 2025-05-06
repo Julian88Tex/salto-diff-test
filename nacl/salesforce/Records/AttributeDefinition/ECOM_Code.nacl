@@ -1,0 +1,9 @@
+salesforce.AttributeDefinition ECOM_Code@s {
+  DataType = "Text"
+  DeveloperName = "ECOM_Code"
+  IsActive = true
+  IsRequired = false
+  Label = "ECOM Code"
+  Name = "ECOM Code"
+  _alias = "ECOM Code"
+}

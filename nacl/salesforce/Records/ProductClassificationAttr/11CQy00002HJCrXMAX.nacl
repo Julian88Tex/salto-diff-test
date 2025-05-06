@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CQy00002HJCrXMAX" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Memory
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Memory
+  AttributeNameOverride = "Memory"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Memory"
+  ProductClassificationId = salesforce.ProductClassification.instance.April29
+  Status = "Active"
+  _alias = "Memory"
+}

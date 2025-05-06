@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUAMA3" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Display
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Display
+  AttributeNameOverride = "Display"
+  DefaultValue = "1080p Built-in Display"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Display"
+  ProductClassificationId = salesforce.ProductClassification.instance.MN001
+  Status = "Active"
+  _alias = "Display"
+}

@@ -1,0 +1,9 @@
+salesforce.ObjectStateTransitionAction "0pNQy00000013ojMAA" {
+  DisplaySequence = 1
+  IsActive = true
+  Name = "Rejected_To_Draft"
+  ObjectStateActionDefinitionId = salesforce.ObjectStateActionDefinition.instance.0OJQy00000014ZUOAY
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy00000013iDIAQ
+  ObjectStateTransitionId = salesforce.ObjectStateTransition.instance.0jjQy00000013lYIAQ
+  _alias = "Rejected_To_Draft"
+}

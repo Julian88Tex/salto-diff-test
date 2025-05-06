@@ -1,0 +1,5 @@
+salesforce.PriceBookRateCard "1FnQy0000000CXRKA2" {
+  PriceBookId = salesforce.Pricebook2.instance.01sQy00000B5qqrIAB
+  RateCardId = salesforce.RateCard.instance.1CIQy00000008onOAA
+  _alias = "Standard Price Book API Access Premium Rate Card PRC-00000001"
+}

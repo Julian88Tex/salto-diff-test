@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FMDIA2" {
+  Code = "Cloud Based POS"
+  DisplayValue = "Cloud Based POS"
+  IsDefault = false
+  Name = "Cloud Based POS"
+  PicklistId = salesforce.AttributePicklist.instance.POS0001
+  Sequence = 3
+  Status = "Active"
+  Value = "Cloud Based POS"
+  _alias = "POS Type Cloud Based POS"
+}

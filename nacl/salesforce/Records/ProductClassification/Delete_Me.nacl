@@ -1,0 +1,6 @@
+salesforce.ProductClassification Delete_Me@s {
+  Code = "Delete Me"
+  Name = "Delete Me"
+  Status = "Draft"
+  _alias = "Delete Me"
+}

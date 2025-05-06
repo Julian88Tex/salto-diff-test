@@ -93,13 +93,112 @@ salesforce {
           metadataType = "PermissionSetGroup"
         },
         {
-          metadataType = "RuleLibraryDefinition"
-          name = "Configuration_Rules"
+          metadataType = "Portal"
+          name = "Customer Portal"
+        },
+        {
+          metadataType = "ConnectedApp"
+          name = "CPQIntegrationUserApp"
         },
         {
           metadataType = "RuleLibraryDefinition"
           name = "DFORuleLibrary"
         },
+        {
+          metadataType = "RuleLibraryDefinition"
+          name = "Configuration_Rules"
+        },
+      ]
+    }
+    data = {
+      includeObjects = [
+        "AdAvailabilityViewConfig",
+        "AttributeAdjustmentCondition",
+        "AttributeBasedAdjRule",
+        "AttributeBasedAdjustment",
+        "AttributeCategory",
+        "AttributeCategoryAttribute",
+        "AttributeDefinition",
+        "AttributePicklist",
+        "AttributePicklistValue",
+        "BundleBasedAdjustment",
+        "ObjectStateActionDefinition",
+        "ObjectStateDefinition",
+        "ObjectStateTransition",
+        "ObjectStateTransitionAction",
+        "ObjectStateValue",
+        "PriceAdjustmentSchedule",
+        "PriceAdjustmentTier",
+        "PriceBookEntryDerivedPrice",
+        "PriceBookRateCard",
+        "ProductAttributeDefinition",
+        "ProductClassification",
+        "ProductClassificationAttr",
+        "ProductComponentGroup",
+        "ProductConfigurationFlow",
+        "ProductDisqualification",
+        "ProductQualification",
+        "ProductRampSegment",
+        "ProductRelatedComponent",
+        "ProductRelationshipType",
+        "ProductSellingModel",
+        "ProductUsageGrant",
+        "RateCard",
+        "RateCardEntry",
+        "UnitOfMeasure",
+        "UnitOfMeasureClass",
+        "UsageResource",
+        "UsageResourceBillingPolicy",
+      ]
+      allowReferenceTo = [
+        "Product2",
+        "Pricebook2",
+        "PricebookEntry",
+      ]
+      saltoIDSettings = {
+        defaultIdFields = [
+          "Id",
+        ]
+        overrides = [
+          {
+            objectsRegex = "AttributeCategory"
+            idFields = [
+              "Name",
+            ]
+          },
+          {
+            objectsRegex = "AttributeDefinition"
+            idFields = [
+              "Name",
+            ]
+          },
+          {
+            objectsRegex = "AttributePicklist"
+            idFields = [
+              "Code",
+            ]
+          },
+          {
+            objectsRegex = "ProductClassification"
+            idFields = [
+              "Code",
+            ]
+          },
+          {
+            objectsRegex = "UnitOfMeasureClass"
+            idFields = [
+              "Code",
+            ]
+          },
+        ]
+      }
+      brokenOutgoingReferencesSettings = {
+        defaultBehavior = "BrokenReference"
+        perTargetTypeOverrides = {
+          User = "InternalId"
+        }
+      }
+      excludeObjects = [
       ]
     }
     fetchAllCustomSettings = false

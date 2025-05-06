@@ -1,0 +1,6 @@
+salesforce.ProductClassification SL001 {
+  Code = "SL001"
+  Name = "Support"
+  Status = "Active"
+  _alias = "Support"
+}

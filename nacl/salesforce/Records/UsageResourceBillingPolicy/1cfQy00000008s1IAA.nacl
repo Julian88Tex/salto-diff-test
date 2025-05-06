@@ -1,0 +1,7 @@
+salesforce.UsageResourceBillingPolicy "1cfQy00000008s1IAA" {
+  Code = "URBP002"
+  Name = "Default Usage Resource Billing Policy"
+  Status = "Active"
+  UsageAccumulationMethod = "Event"
+  _alias = "Default Usage Resource Billing Policy"
+}

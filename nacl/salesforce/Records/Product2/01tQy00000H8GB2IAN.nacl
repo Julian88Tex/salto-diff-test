@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GB2IAN" {
+  ConfigureDuringSale = "Allowed"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Skill Development Package"
+  ProductCode = "SDP001"
+  Type = "Bundle"
+  _alias = "SDP001 Skill Development Package"
+}

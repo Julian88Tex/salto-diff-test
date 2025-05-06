@@ -1,0 +1,13 @@
+salesforce.BundleBasedAdjustment "15TQy00000C0V3JMAV" {
+  AdjustmentType = "Amount"
+  AdjustmentValue = 4
+  EffectiveFrom = "2024-07-10T19:00:00.000+0000"
+  ParentProductId = salesforce.Product2.instance.01tQy00000H8GAiIAN
+  ParentProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCYMA2
+  PriceAdjustmentScheduleId = salesforce.PriceAdjustmentSchedule.instance.84XQy0000000jwQMAQ
+  ProductId = salesforce.Product2.instance.01tQy00000H8GAyIAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCYMA2
+  RootBundleId = salesforce.Product2.instance.01tQy00000H8GAiIAN
+  RootProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCYMA2
+  _alias = "Standard Bundle Based Adjustment 00000004"
+}

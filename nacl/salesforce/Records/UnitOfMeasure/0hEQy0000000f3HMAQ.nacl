@@ -1,0 +1,10 @@
+salesforce.UnitOfMeasure "0hEQy0000000f3HMAQ" {
+  ConversionFactor = 1
+  Name = "MB"
+  Sequence = 1
+  Status = "Active"
+  Type = "Memory"
+  UnitCode = "MB"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.DAT005
+  _alias = "MB"
+}

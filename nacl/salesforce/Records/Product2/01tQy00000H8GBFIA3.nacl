@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GBFIA3" {
+  ConfigureDuringSale = "Allowed"
+  Family = "Support"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Admin Certification"
+  ProductCode = "AC001"
+  _alias = "AC001 Support Admin Certification"
+}

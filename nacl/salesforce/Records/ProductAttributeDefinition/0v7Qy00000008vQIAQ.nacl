@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vQIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Storage
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Storage
+  AttributeNameOverride = "Storage"
+  DefaultValue = "Cloud Storage Enterprise - 2 TB"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Storage"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAtIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTUEMA3
+  Sequence = 0
+  Status = "Active"
+  _alias = "CS001 Service Cloud Storage Storage"
+}

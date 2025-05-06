@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GBGIA3" {
+  ConfigureDuringSale = "NotAllowed"
+  Family = "Support"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Developer Certification"
+  ProductCode = "DC001"
+  _alias = "DC001 Support Developer Certification"
+}

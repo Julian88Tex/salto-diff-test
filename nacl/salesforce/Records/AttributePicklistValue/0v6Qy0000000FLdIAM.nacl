@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FLdIAM" {
+  Code = "Software Training"
+  DisplayValue = "Software Training"
+  IsDefault = false
+  Name = "Software Training"
+  PicklistId = salesforce.AttributePicklist.instance.TRA001
+  Sequence = 1
+  Status = "Draft"
+  Value = "Software Training"
+  _alias = "Training Type Picklist Software Training"
+}

@@ -1,0 +1,6 @@
+salesforce.ProductClassification REG {
+  Code = "REG"
+  Name = "Registers"
+  Status = "Active"
+  _alias = "Registers"
+}

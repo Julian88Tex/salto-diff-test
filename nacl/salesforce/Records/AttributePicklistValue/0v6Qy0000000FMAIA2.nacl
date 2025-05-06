@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FMAIA2" {
+  Code = "Handheld"
+  DisplayValue = "Handheld"
+  IsDefault = true
+  Name = "Handheld"
+  PicklistId = salesforce.AttributePicklist.instance.S0001
+  Sequence = 1
+  Status = "Active"
+  Value = "Handheld"
+  _alias = "Scanner Type Handheld"
+}

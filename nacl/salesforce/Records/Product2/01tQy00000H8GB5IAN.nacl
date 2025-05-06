@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GB5IAN" {
+  ConfigureDuringSale = "NotAllowed"
+  Family = "Support"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Specialized Certifications"
+  Type = "Bundle"
+  _alias = "Support Specialized Certifications"
+}

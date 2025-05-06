@@ -1,0 +1,6 @@
+salesforce.ProductClassification INSTL {
+  Code = "INSTL"
+  Name = "Installation"
+  Status = "Active"
+  _alias = "Installation"
+}

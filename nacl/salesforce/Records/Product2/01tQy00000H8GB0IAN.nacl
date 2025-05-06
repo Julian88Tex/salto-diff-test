@@ -1,0 +1,13 @@
+salesforce.Product2 "01tQy00000H8GB0IAN" {
+  BasedOnId = salesforce.ProductClassification.instance.SFT001
+  ConfigureDuringSale = "Allowed"
+  Description = "Quickbooks Online product for SMB businesses."
+  DisplayUrl = "https://media.istockphoto.com/id/497573700/photo/businessman-builds-a-tower.jpg?s=1024x1024&w=is&k=20&c=ZQHmgH28-Yu4PdOfTIxGfzMfbfQCmIfpUkPt3IAEz6I="
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Quickbooks Online"
+  ProductCode = "QBO0021"
+  _alias = "QBO0021 Quickbooks Online"
+}

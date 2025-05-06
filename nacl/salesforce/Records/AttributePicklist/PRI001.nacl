@@ -1,0 +1,7 @@
+salesforce.AttributePicklist PRI001 {
+  Code = "PRI001"
+  DataType = "Text"
+  Name = "Printer Picklist"
+  Status = "Draft"
+  _alias = "Printer Picklist"
+}

@@ -1,0 +1,14 @@
+salesforce.Product2 "01tQy00000H8GAuIAN" {
+  BasedOnId = salesforce.ProductClassification.instance.MN001
+  ConfigureDuringSale = "Allowed"
+  Description = "Table mounted high quality high resolution Monitor with 3 HDMI, 3 USB Ports"
+  DisplayUrl = "https://plus.unsplash.com/premium_photo-1681470644798-dd63dc4a0851?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  Family = "Hardware"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Monitor"
+  ProductCode = "MO001"
+  _alias = "MO001 Hardware Monitor"
+}

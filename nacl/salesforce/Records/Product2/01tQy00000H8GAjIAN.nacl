@@ -1,0 +1,12 @@
+salesforce.Product2 "01tQy00000H8GAjIAN" {
+  ConfigureDuringSale = "NotAllowed"
+  DisplayUrl = "https://media.istockphoto.com/id/1409928874/photo/man-signature-document-for-life-insurance-investment.jpg?s=1024x1024&w=is&k=20&c=3xdqSzzu730fVEAjxV4aG2bD3TNJF77-5lLUyxg9UG8="
+  Family = "Service"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Warranty"
+  ProductCode = "W001"
+  _alias = "W001 Service Warranty"
+}

@@ -1,0 +1,10 @@
+salesforce.UsageResource "1BRQy0000000UEDOA2" {
+  Category = "Usage"
+  Code = "API001"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEQy0000000f3CMAQ
+  Name = "API Calls"
+  Status = "Active"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.COUNT0066
+  UsageResourceBillingPolicyId = salesforce.UsageResourceBillingPolicy.instance.1cfQy00000008s1IAA
+  _alias = "API Calls"
+}

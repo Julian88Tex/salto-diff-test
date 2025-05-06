@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GB7IAN" {
+  BasedOnId = salesforce.ProductClassification.instance.SCNR
+  ConfigureDuringSale = "Allowed"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Scanners"
+  ProductCode = "SCN01"
+  _alias = "SCN01 Scanners"
+}

@@ -1,0 +1,11 @@
+salesforce.AttributeDefinition Scanner_Type@s {
+  DataType = "Picklist"
+  DefaultValue = "Handheld"
+  DeveloperName = "Scanner_Type"
+  IsActive = true
+  IsRequired = false
+  Label = "Scanner Type"
+  Name = "Scanner Type"
+  PicklistId = salesforce.AttributePicklist.instance.S0001
+  _alias = "Scanner Type"
+}

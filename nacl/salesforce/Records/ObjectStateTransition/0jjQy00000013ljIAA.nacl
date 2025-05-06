@@ -1,0 +1,7 @@
+salesforce.ObjectStateTransition "0jjQy00000013ljIAA" {
+  FromStateId = salesforce.ObjectStateValue.instance.2p3Qy000000144qIAA
+  Name = "Activated_To_Expired"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy00000013iDIAQ
+  ToStateId = salesforce.ObjectStateValue.instance.2p3Qy000000144wIAA
+  _alias = "Contract LifeCycle Management Activated_To_Expired"
+}

@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vKIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Memory
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Memory
+  AttributeNameOverride = "Memory"
+  DefaultValue = "RAM 8GB"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Memory"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAxIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTU8MAN
+  Sequence = 0
+  Status = "Active"
+  _alias = "LP001 Hardware Laptop Memory"
+}

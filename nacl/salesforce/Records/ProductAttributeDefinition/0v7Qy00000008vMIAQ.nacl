@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vMIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Display
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Display
+  AttributeNameOverride = "Display"
+  DefaultValue = "1080p Built-in Display"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Display"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAxIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTUBMA3
+  Sequence = 0
+  Status = "Active"
+  _alias = "LP001 Hardware Laptop Display"
+}

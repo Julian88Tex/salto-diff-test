@@ -1,0 +1,5 @@
+salesforce.ProductComponentGroup "0y7Qy00000009TJIAY" {
+  Name = "Hardware"
+  ParentProductId = salesforce.Product2.instance.01tQy00000H8GAzIAN
+  _alias = "Hardware"
+}

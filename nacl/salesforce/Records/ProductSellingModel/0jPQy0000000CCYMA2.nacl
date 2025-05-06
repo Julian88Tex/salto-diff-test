@@ -1,0 +1,6 @@
+salesforce.ProductSellingModel "0jPQy0000000CCYMA2" {
+  Name = "One Time"
+  SellingModelType = "OneTime"
+  Status = "Active"
+  _alias = "One Time"
+}

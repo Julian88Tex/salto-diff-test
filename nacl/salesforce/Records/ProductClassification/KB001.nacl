@@ -1,0 +1,6 @@
+salesforce.ProductClassification KB001 {
+  Code = "KB001"
+  Name = "Keyboard"
+  Status = "Active"
+  _alias = "Keyboard"
+}

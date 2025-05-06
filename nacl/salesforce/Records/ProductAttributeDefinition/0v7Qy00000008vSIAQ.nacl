@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vSIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Connection_Type@s
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Wireless
+  AttributeNameOverride = "Wireless"
+  DefaultValue = "false"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Wireless"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAsIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTUHMA3
+  Sequence = 0
+  Status = "Active"
+  _alias = "MO001 Hardware Mouse Wireless"
+}

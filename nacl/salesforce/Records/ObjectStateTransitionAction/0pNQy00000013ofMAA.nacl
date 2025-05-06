@@ -1,0 +1,9 @@
+salesforce.ObjectStateTransitionAction "0pNQy00000013ofMAA" {
+  DisplaySequence = 1
+  IsActive = true
+  Name = "Draft_To_InApproval"
+  ObjectStateActionDefinitionId = salesforce.ObjectStateActionDefinition.instance.0OJQy00000014ZROAY
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy00000013iDIAQ
+  ObjectStateTransitionId = salesforce.ObjectStateTransition.instance.0jjQy00000013lRIAQ
+  _alias = "Draft_To_InApproval"
+}

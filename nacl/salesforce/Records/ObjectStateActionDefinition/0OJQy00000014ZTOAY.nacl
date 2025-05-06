@@ -1,0 +1,6 @@
+salesforce.ObjectStateActionDefinition "0OJQy00000014ZTOAY" {
+  ActionType = "Apex"
+  DisplayLabel = "Cancel Approval"
+  Name = "cancelApproval"
+  _alias = "cancelApproval"
+}

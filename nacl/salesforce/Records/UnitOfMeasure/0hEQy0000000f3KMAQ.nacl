@@ -1,0 +1,10 @@
+salesforce.UnitOfMeasure "0hEQy0000000f3KMAQ" {
+  ConversionFactor = 1
+  Name = "TPS"
+  Sequence = 6
+  Status = "Active"
+  Type = "Count"
+  UnitCode = "TPS"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.COUNT0066
+  _alias = "TPS"
+}

@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTU8MAN" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Memory
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Memory
+  AttributeNameOverride = "Memory"
+  DefaultValue = "RAM 32GB"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Memory"
+  ProductClassificationId = salesforce.ProductClassification.instance.CMP001
+  Status = "Active"
+  _alias = "Memory"
+}

@@ -1,0 +1,9 @@
+salesforce.ObjectStateTransitionAction "0pNQy00000013omMAA" {
+  DisplaySequence = 2
+  IsActive = true
+  Name = "Negotiating_To_Draft"
+  ObjectStateActionDefinitionId = salesforce.ObjectStateActionDefinition.instance.0OJQy00000014ZUOAY
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy00000013iDIAQ
+  ObjectStateTransitionId = salesforce.ObjectStateTransition.instance.0jjQy00000013lZIAQ
+  _alias = "Negotiating_To_Draft"
+}

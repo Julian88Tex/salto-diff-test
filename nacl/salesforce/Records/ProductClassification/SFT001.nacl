@@ -1,0 +1,6 @@
+salesforce.ProductClassification SFT001 {
+  Code = "SFT001"
+  Name = "Software"
+  Status = "Active"
+  _alias = "Software"
+}

@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FLfIAM" {
+  Code = "1080p Built-in Display"
+  DisplayValue = "1080p Built-in Display"
+  IsDefault = true
+  Name = "1080p Built-in Display"
+  PicklistId = salesforce.AttributePicklist.instance.DIS001
+  Sequence = 1
+  Status = "Draft"
+  Value = "1080p Built-in Display"
+  _alias = "Display Picklist 1080p Built-in Display"
+}

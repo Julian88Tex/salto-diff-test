@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GB9IAN" {
+  BasedOnId = salesforce.ProductClassification.instance.RETPOS
+  ConfigureDuringSale = "Allowed"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Retail POS"
+  ProductCode = "POS01"
+  _alias = "POS01 Retail POS"
+}

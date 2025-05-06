@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vRIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Storage
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Storage
+  AttributeNameOverride = "Storage"
+  DefaultValue = "SSD Hard Drive 256GB"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Storage"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAxIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTUFMA3
+  Sequence = 0
+  Status = "Active"
+  _alias = "LP001 Hardware Laptop Storage"
+}

@@ -1,0 +1,9 @@
+salesforce.PriceAdjustmentSchedule "84XQy0000000jwPMAQ" {
+  AdjustmentMethod = "Range"
+  EffectiveFrom = "2024-07-08T06:11:00.000+0000"
+  IsActive = false
+  Name = "Standard Attribute Based Adjustment"
+  Pricebook2Id = salesforce.Pricebook2.instance.01sQy00000B5qqrIAB
+  ScheduleType = "Attribute"
+  _alias = "Standard Attribute Based Adjustment"
+}

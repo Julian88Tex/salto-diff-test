@@ -1,0 +1,6 @@
+salesforce.ProductClassification M001 {
+  Code = "M001"
+  Name = "Mouse"
+  Status = "Active"
+  _alias = "Mouse"
+}

@@ -1,0 +1,14 @@
+salesforce.Product2 "01tQy00000H8GAgIAN" {
+  ConfigureDuringSale = "Allowed"
+  Description = "The laptop basic bundle includes a Laptop, mouse, and warranty for 1 year."
+  DisplayUrl = "https://plus.unsplash.com/premium_photo-1681702178555-ab53d9f8d912?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  Family = "Hardware"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Laptop Basic Bundle"
+  ProductCode = "LB001"
+  Type = "Bundle"
+  _alias = "LB001 Hardware Laptop Basic Bundle"
+}

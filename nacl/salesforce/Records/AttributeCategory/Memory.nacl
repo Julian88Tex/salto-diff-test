@@ -1,0 +1,5 @@
+salesforce.AttributeCategory Memory {
+  Code = "MEM"
+  Name = "Memory"
+  _alias = "Memory"
+}

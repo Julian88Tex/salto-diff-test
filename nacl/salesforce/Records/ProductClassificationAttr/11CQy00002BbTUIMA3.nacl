@@ -1,0 +1,15 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUIMA3" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Register_Type@s
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Register_Type@s
+  AttributeNameOverride = "Register Type"
+  DefaultValue = "Cash & Card"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Register Type"
+  ProductClassificationId = salesforce.ProductClassification.instance.REG
+  Sequence = 0
+  Status = "Active"
+  _alias = "Register Type"
+}

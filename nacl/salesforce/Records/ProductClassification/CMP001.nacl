@@ -1,0 +1,6 @@
+salesforce.ProductClassification CMP001 {
+  Code = "CMP001"
+  Name = "Computer"
+  Status = "Active"
+  _alias = "Computer"
+}

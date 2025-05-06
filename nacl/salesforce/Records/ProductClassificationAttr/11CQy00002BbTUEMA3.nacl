@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUEMA3" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Storage
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Storage
+  AttributeNameOverride = "Storage"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Storage"
+  ProductClassificationId = salesforce.ProductClassification.instance.CS001
+  Status = "Active"
+  _alias = "Storage"
+}

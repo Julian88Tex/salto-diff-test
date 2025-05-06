@@ -1,0 +1,8 @@
+salesforce.AttributePicklist R0001 {
+  Code = "R0001"
+  DataType = "Text"
+  Description = "Register Type"
+  Name = "Register Type"
+  Status = "Active"
+  _alias = "Register Type"
+}

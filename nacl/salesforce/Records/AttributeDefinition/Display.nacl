@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Display {
+  DataType = "Picklist"
+  DeveloperName = "Display"
+  IsActive = true
+  IsRequired = true
+  Label = "Display"
+  Name = "Display"
+  PicklistId = salesforce.AttributePicklist.instance.DIS001
+  _alias = "Display"
+}

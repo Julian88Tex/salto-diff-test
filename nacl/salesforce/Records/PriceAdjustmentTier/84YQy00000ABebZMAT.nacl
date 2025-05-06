@@ -1,0 +1,11 @@
+salesforce.PriceAdjustmentTier "84YQy00000ABebZMAT" {
+  EffectiveFrom = "2023-12-01T20:00:00.000+0000"
+  LowerBound = 11
+  PriceAdjustmentScheduleId = salesforce.PriceAdjustmentSchedule.instance.84XQy0000000jwSMAQ
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAuIAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCYMA2
+  TierType = "AdjustmentPercentage"
+  TierValue = 15
+  UpperBound = 15
+  _alias = "MO001 Hardware Monitor One Time AdjustmentPercentage"
+}

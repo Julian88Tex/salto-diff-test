@@ -1,0 +1,6 @@
+salesforce.ObjectStateActionDefinition "0OJQy00000014ZWOAY" {
+  ActionType = "Apex"
+  DisplayLabel = "Update Envelope Status"
+  Name = "updateEnvelopeStatus"
+  _alias = "updateEnvelopeStatus"
+}

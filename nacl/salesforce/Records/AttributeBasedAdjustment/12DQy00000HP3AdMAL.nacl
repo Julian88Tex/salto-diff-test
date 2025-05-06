@@ -1,0 +1,10 @@
+salesforce.AttributeBasedAdjustment "12DQy00000HP3AdMAL" {
+  AdjustmentType = "Percentage"
+  AdjustmentValue = 10
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HQy0000000hxrMAA
+  EffectiveFrom = "2024-07-10T07:08:00.000+0000"
+  PriceAdjustmentScheduleId = salesforce.PriceAdjustmentSchedule.instance.84XQy0000000jwPMAQ
+  ProductId = salesforce.Product2.instance.01tQy00000H8GArIAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCZMA2
+  _alias = "T001 Service Basic Training Term Based - Monthly Percentage"
+}

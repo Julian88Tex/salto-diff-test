@@ -1,0 +1,10 @@
+salesforce.UnitOfMeasure "0hEQy0000000f3LMAQ" {
+  ConversionFactor = 1
+  Name = "USD"
+  Sequence = 1
+  Status = "Active"
+  Type = "Cost"
+  UnitCode = "USD"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.CURR004
+  _alias = "USD"
+}

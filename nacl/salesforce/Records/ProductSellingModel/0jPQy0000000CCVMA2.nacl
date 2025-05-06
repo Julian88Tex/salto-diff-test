@@ -1,0 +1,8 @@
+salesforce.ProductSellingModel "0jPQy0000000CCVMA2" {
+  Name = "Term Based - Quarterly"
+  PricingTerm = 1
+  PricingTermUnit = "Quarterly"
+  SellingModelType = "TermDefined"
+  Status = "Active"
+  _alias = "Term Based - Quarterly"
+}

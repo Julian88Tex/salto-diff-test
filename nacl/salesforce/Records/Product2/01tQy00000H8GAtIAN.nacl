@@ -1,0 +1,14 @@
+salesforce.Product2 "01tQy00000H8GAtIAN" {
+  BasedOnId = salesforce.ProductClassification.instance.CS001
+  ConfigureDuringSale = "Allowed"
+  Description = "Cloud computing model that enables storing data and files on the internet through a cloud computing"
+  DisplayUrl = "https://plus.unsplash.com/premium_photo-1683288706548-e8b6bb72fe86?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  Family = "Service"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Cloud Storage"
+  ProductCode = "CS001"
+  _alias = "CS001 Service Cloud Storage"
+}

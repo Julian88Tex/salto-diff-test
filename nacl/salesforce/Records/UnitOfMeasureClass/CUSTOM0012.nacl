@@ -1,0 +1,6 @@
+salesforce.UnitOfMeasureClass CUSTOM0012 {
+  Code = "CUSTOM0012"
+  Name = "Custom Count"
+  Status = "Active"
+  _alias = "Custom Count"
+}

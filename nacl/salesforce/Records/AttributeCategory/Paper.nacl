@@ -1,0 +1,5 @@
+salesforce.AttributeCategory Paper {
+  Code = "PP001"
+  Name = "Paper"
+  _alias = "Paper"
+}

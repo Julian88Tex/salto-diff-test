@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GB8IAN" {
+  BasedOnId = salesforce.ProductClassification.instance.REG
+  ConfigureDuringSale = "Allowed"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Registers"
+  ProductCode = "REG01"
+  _alias = "REG01 Registers"
+}

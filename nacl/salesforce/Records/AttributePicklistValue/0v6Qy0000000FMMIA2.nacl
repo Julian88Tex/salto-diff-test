@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FMMIA2" {
+  Code = "ENT001"
+  DisplayValue = "Enterprise"
+  IsDefault = false
+  Name = "Enterprise"
+  PicklistId = salesforce.AttributePicklist.instance.STPICK002
+  Sequence = 1
+  Status = "Active"
+  Value = "Enterprise"
+  _alias = "Subscription Type Enterprise"
+}

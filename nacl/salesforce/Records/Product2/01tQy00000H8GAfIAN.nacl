@@ -1,0 +1,13 @@
+salesforce.Product2 "01tQy00000H8GAfIAN" {
+  ConfigureDuringSale = "Allowed"
+  Description = "A program designed to detect and remove viruses and other kinds of malicious software from your computer or laptop."
+  DisplayUrl = "https://plus.unsplash.com/premium_photo-1676618539992-21c7d3b6df0f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  Family = "Software"
+  IsActive = false
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Antivirus"
+  ProductCode = "AV001"
+  _alias = "AV001 Software Antivirus"
+}

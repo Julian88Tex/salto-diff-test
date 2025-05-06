@@ -1,0 +1,7 @@
+salesforce.UnitOfMeasureClass CUSTOM001 {
+  Code = "CUSTOM001"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEQy0000000jhtMAA
+  Name = "Custom Count"
+  Status = "Draft"
+  _alias = "Custom Count"
+}

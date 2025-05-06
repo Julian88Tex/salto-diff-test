@@ -1,0 +1,10 @@
+salesforce.UnitOfMeasure "0hEQy0000000f3EMAQ" {
+  ConversionFactor = 1
+  Name = "Each"
+  Sequence = 1
+  Status = "Active"
+  Type = "Count"
+  UnitCode = "EACH"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.CASE002
+  _alias = "Each"
+}

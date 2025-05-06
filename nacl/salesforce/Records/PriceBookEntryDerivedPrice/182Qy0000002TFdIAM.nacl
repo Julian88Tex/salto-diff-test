@@ -1,0 +1,10 @@
+salesforce.PriceBookEntryDerivedPrice "182Qy0000002TFdIAM" {
+  ContributingProductId = salesforce.Product2.instance.01tQy00000H8GAmIAN
+  DerivedPricingScope = "Both"
+  EffectiveFrom = "2024-08-01T08:31:00.000+0000"
+  Formula = "TotalPrice * 0.40"
+  PricebookEntryId = salesforce.PricebookEntry.instance.01uQy000003vWCmIAM
+  PricebookId = salesforce.Pricebook2.instance.01sQy00000B5qqrIAB
+  PricingSource = "Product"
+  _alias = "Standard Price Book Lucidchart"
+}

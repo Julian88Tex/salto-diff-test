@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GBDIA3" {
+  ConfigureDuringSale = "NotAllowed"
+  Family = "Support"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "AI Specialist Certification"
+  ProductCode = "AST001"
+  _alias = "AST001 Support AI Specialist Certification"
+}

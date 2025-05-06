@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GBAIA3" {
+  BasedOnId = salesforce.ProductClassification.instance.ECOM
+  ConfigureDuringSale = "Allowed"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "E-Commerce"
+  ProductCode = "ECOM01"
+  _alias = "ECOM01 E-Commerce"
+}

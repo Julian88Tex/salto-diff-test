@@ -1,0 +1,7 @@
+salesforce.AttributePicklist PSIZE001 {
+  Code = "PSIZE001"
+  DataType = "Text"
+  Name = "Paper Size Picklist"
+  Status = "Draft"
+  _alias = "Paper Size Picklist"
+}

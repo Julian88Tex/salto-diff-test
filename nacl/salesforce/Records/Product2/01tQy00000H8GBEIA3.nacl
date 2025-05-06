@@ -1,0 +1,11 @@
+salesforce.Product2 "01tQy00000H8GBEIA3" {
+  ConfigureDuringSale = "NotAllowed"
+  Family = "Support"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "LLM Certification"
+  ProductCode = "LLM001"
+  _alias = "LLM001 Support LLM Certification"
+}

@@ -1,0 +1,7 @@
+salesforce.ObjectStateValue "2p3Qy00000018GTIAY" {
+  Description = "desc"
+  Name = "Test Object State Value"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy000000181xIAA
+  ReferenceRecordAccessType = "Read Only"
+  _alias = "Delete Me Test Object State Value"
+}

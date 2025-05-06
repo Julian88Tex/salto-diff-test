@@ -1,0 +1,14 @@
+salesforce.Product2 "01tQy00000H8GAmIAN" {
+  ConfigureDuringSale = "Allowed"
+  Description = "Grow your business with Workspace"
+  DisplayUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5oXTveyqZKfIS2ne-bQSbONwoNOYcOqNThg&s"
+  Family = "Software"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Google Workspace"
+  ProductCode = "GW001"
+  StockKeepingUnit = "GW001"
+  _alias = "GW001 Software Google Workspace"
+}

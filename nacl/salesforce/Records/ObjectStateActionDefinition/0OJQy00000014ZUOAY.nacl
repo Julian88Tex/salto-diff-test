@@ -1,0 +1,6 @@
+salesforce.ObjectStateActionDefinition "0OJQy00000014ZUOAY" {
+  ActionType = "Apex"
+  DisplayLabel = "Re-draft Contract"
+  Name = "re-draftContract"
+  _alias = "re-draftContract"
+}

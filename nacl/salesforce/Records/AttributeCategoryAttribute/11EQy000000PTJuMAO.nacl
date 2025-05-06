@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EQy000000PTJuMAO" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Storage
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Storage
+  _alias = "Storage Storage"
+}

@@ -1,0 +1,10 @@
+salesforce.UnitOfMeasure "0hEQy0000000f3DMAQ" {
+  ConversionFactor = 1
+  Name = "Count"
+  Sequence = 1
+  Status = "Active"
+  Type = "Count"
+  UnitCode = "COUNT"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.SMS006
+  _alias = "Count"
+}

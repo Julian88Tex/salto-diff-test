@@ -1,0 +1,11 @@
+salesforce.RateCardEntry "1CJQy00000008onOAA" {
+  EffectiveFrom = "2024-10-08T19:00:00.000+0000"
+  ProductId = salesforce.Product2.instance.01tQy00000H8GB1IAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCZMA2
+  Rate = 0.023456
+  RateCardId = salesforce.RateCard.instance.1CIQy00000008onOAA
+  RateNegotiation = "Negotiable"
+  RateUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEQy0000000f3LMAQ
+  UsageResourceId = salesforce.UsageResource.instance.1BRQy0000000UEDOA2
+  _alias = "API Access Premium Rate Card API Calls"
+}

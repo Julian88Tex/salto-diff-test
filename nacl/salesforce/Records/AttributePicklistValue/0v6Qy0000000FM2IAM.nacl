@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FM2IAM" {
+  Code = "SSD Hard Drive 512GB"
+  DisplayValue = "SSD Hard Drive 512GB"
+  IsDefault = false
+  Name = "SSD Hard Drive 512GB"
+  PicklistId = salesforce.AttributePicklist.instance.STR001
+  Sequence = 2
+  Status = "Draft"
+  Value = "SSD Hard Drive 512GB"
+  _alias = "Storage Picklist SSD Hard Drive 512GB"
+}

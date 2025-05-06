@@ -1,0 +1,6 @@
+salesforce.ProductClassification ECOM {
+  Code = "ECOM"
+  Name = "E Commerce"
+  Status = "Active"
+  _alias = "E Commerce"
+}

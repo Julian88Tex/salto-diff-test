@@ -1,0 +1,14 @@
+salesforce.Product2 "01tQy00000H8GAhIAN" {
+  ConfigureDuringSale = "Allowed"
+  Description = "The laptop pro bundle includes a Laptop, mouse, warranty for 2 years, premium support and printer bundle"
+  DisplayUrl = "https://images.unsplash.com/photo-1533986690673-c50390c01cfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  Family = "Hardware"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Laptop Pro Bundle"
+  ProductCode = "LPB001"
+  Type = "Bundle"
+  _alias = "LPB001 Hardware Laptop Pro Bundle"
+}

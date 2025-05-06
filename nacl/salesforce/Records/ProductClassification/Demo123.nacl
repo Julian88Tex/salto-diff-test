@@ -1,0 +1,6 @@
+salesforce.ProductClassification Demo123 {
+  Code = "Demo123"
+  Name = "Classification Demo"
+  Status = "Draft"
+  _alias = "Classification Demo"
+}

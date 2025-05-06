@@ -1,0 +1,12 @@
+salesforce.Product2 "01tQy00000H8GAyIAN" {
+  BasedOnId = salesforce.ProductClassification.instance.P001
+  ConfigureDuringSale = "Allowed"
+  Family = "Hardware"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Printer Paper"
+  ProductCode = "PP001"
+  _alias = "PP001 Hardware Printer Paper"
+}

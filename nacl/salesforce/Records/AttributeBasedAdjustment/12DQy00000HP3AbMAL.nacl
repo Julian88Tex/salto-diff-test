@@ -1,0 +1,10 @@
+salesforce.AttributeBasedAdjustment "12DQy00000HP3AbMAL" {
+  AdjustmentType = "Override"
+  AdjustmentValue = 9.99
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HQy0000000hxpMAA
+  EffectiveFrom = "2024-07-10T13:00:00.000+0000"
+  PriceAdjustmentScheduleId = salesforce.PriceAdjustmentSchedule.instance.84XQy0000000jwPMAQ
+  ProductId = salesforce.Product2.instance.01tQy00000H8GAsIAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCYMA2
+  _alias = "MO001 Hardware Mouse One Time Override"
+}

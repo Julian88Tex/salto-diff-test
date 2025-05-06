@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CQy00002F7zgFMAR" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Display
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Screen_Size@s
+  AttributeNameOverride = "Screen Size"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Screen Size"
+  ProductClassificationId = salesforce.ProductClassification.instance.Delete_Me@s
+  Status = "Active"
+  _alias = "Screen Size"
+}

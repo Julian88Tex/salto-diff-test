@@ -1,0 +1,8 @@
+salesforce.AttributeAdjustmentCondition "12FQy0000001aJDMAY" {
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HQy0000000hxvMAA
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Printer_Type@s
+  Operator = "equals"
+  ProductId = salesforce.Product2.instance.01tQy00000H8GApIAN
+  StringValue = "Inkjet"
+  _alias = "P001 Hardware Printer Printer Type equals Inkjet"
+}

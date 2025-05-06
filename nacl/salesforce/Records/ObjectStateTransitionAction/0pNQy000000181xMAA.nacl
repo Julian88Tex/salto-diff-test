@@ -1,0 +1,9 @@
+salesforce.ObjectStateTransitionAction "0pNQy000000181xMAA" {
+  DisplaySequence = 1
+  IsActive = true
+  Name = "Test Session"
+  ObjectStateActionDefinitionId = salesforce.ObjectStateActionDefinition.instance.0OJQy00000014ZYOAY
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy000000181xIAA
+  ObjectStateTransitionId = salesforce.ObjectStateTransition.instance.0jjQy00000017vVIAQ
+  _alias = "Test Session"
+}

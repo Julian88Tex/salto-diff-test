@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUKMA3" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Scanner_Type@s
+  AttributeNameOverride = "Scanner Type"
+  DefaultValue = "Handheld"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Scanner Type"
+  ProductClassificationId = salesforce.ProductClassification.instance.SCNR
+  Sequence = 0
+  Status = "Active"
+  _alias = "Scanner Type"
+}

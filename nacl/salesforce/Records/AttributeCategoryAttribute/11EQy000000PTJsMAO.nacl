@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EQy000000PTJsMAO" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Display
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Display
+  _alias = "Display Display"
+}

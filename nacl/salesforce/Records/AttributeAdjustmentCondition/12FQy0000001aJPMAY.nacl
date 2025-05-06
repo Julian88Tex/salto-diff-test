@@ -1,0 +1,8 @@
+salesforce.AttributeAdjustmentCondition "12FQy0000001aJPMAY" {
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HQy0000000hxsMAA
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Support_Level@s
+  Operator = "equals"
+  ProductId = salesforce.Product2.instance.01tQy00000H8GAvIAN
+  StringValue = "Premium Plus Support"
+  _alias = "SP001 Service Support Support Level equals Premium Plus Support"
+}

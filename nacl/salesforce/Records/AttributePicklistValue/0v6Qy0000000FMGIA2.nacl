@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FMGIA2" {
+  Code = "North"
+  DisplayValue = "North"
+  IsDefault = false
+  Name = "North"
+  PicklistId = salesforce.AttributePicklist.instance.RG0001
+  Sequence = 1
+  Status = "Active"
+  Value = "North"
+  _alias = "Region North"
+}

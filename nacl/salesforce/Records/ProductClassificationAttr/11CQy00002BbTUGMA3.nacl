@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUGMA3" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Connection_Type@s
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Wireless
+  AttributeNameOverride = "Wireless"
+  DefaultValue = "FALSE"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Wireless"
+  ProductClassificationId = salesforce.ProductClassification.instance.KB001
+  Status = "Active"
+  _alias = "Wireless"
+}

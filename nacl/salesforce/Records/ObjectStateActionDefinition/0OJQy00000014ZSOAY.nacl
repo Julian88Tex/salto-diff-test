@@ -1,0 +1,6 @@
+salesforce.ObjectStateActionDefinition "0OJQy00000014ZSOAY" {
+  ActionType = "Apex"
+  DisplayLabel = "Cancel Contract"
+  Name = "cancelContract"
+  _alias = "cancelContract"
+}

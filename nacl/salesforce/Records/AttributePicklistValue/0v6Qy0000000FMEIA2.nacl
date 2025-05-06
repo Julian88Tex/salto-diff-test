@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FMEIA2" {
+  Code = "Mobile POS"
+  DisplayValue = "Mobile POS"
+  IsDefault = false
+  Name = "Mobile POS"
+  PicklistId = salesforce.AttributePicklist.instance.POS0001
+  Sequence = 4
+  Status = "Active"
+  Value = "Mobile POS"
+  _alias = "POS Type Mobile POS"
+}

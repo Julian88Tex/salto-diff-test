@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vJIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Support
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Support_Level@s
+  AttributeNameOverride = "Support Level"
+  DefaultValue = "Premium Support"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Support Level"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAvIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTU7MAN
+  Sequence = 0
+  Status = "Active"
+  _alias = "SP001 Service Support Support Level"
+}

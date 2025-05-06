@@ -1,0 +1,12 @@
+salesforce.Product2 "01tQy00000H8GBHIA3" {
+  ConfigureDuringSale = "NotAllowed"
+  DisplayUrl = "https://gangslifestyle.com/cdn/shop/files/goldstorm-collegetravel-backpack-513.png?v=1706166408&width=1300"
+  Family = "Miscellaneous"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Laptop Bag"
+  ProductCode = "LB001"
+  _alias = "LB001 Miscellaneous Laptop Bag"
+}

@@ -1,0 +1,15 @@
+salesforce.ProductRelatedComponent "0dSQy0000000HdwMAE" {
+  ChildProductId = salesforce.Product2.instance.01tQy00000H8GB9IAN
+  DoesBundlePriceIncludeChild = false
+  IsComponentRequired = true
+  IsDefaultComponent = true
+  IsQuantityEditable = true
+  MaxQuantity = 100
+  MinQuantity = 1
+  ParentProductId = salesforce.Product2.instance.01tQy00000H8GAzIAN
+  ProductComponentGroupId = salesforce.ProductComponentGroup.instance.0y7Qy00000009TKIAY
+  ProductRelationshipTypeId = salesforce.ProductRelationshipType.instance.0yoQy0000002moXIAQ
+  Quantity = 1
+  Sequence = 3
+  _alias = "PRC-000000020"
+}

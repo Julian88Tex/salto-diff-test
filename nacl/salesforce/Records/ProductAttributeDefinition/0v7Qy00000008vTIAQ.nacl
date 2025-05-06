@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vTIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Connection_Type@s
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Wireless
+  AttributeNameOverride = "Wireless"
+  DefaultValue = "true"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Wireless"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAqIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTUGMA3
+  Sequence = 0
+  Status = "Active"
+  _alias = "KB001 Hardware Keyboard Wireless"
+}

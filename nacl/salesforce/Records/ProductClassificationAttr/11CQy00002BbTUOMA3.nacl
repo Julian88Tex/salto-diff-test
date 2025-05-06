@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUOMA3" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Scanner
+  AttributeNameOverride = "Scanner"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Scanner"
+  ProductClassificationId = salesforce.ProductClassification.instance.INSTL
+  Sequence = 0
+  Status = "Active"
+  _alias = "Scanner"
+}

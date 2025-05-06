@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vOIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Display
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Screen_Size@s
+  AttributeNameOverride = "Screen Size"
+  DefaultValue = "13 Inch"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Screen Size"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAxIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTUDMA3
+  Sequence = 0
+  Status = "Active"
+  _alias = "LP001 Hardware Laptop Screen Size"
+}

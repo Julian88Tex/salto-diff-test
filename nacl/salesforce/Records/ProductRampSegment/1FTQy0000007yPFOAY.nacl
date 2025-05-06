@@ -1,0 +1,6 @@
+salesforce.ProductRampSegment "1FTQy0000007yPFOAY" {
+  ProductId = salesforce.Product2.instance.01tQy00000H8GB0IAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCXMA2
+  SegmentType = "Yearly"
+  _alias = "Yearly QBO0021 Quickbooks Online Term Based - Yearly"
+}

@@ -1,0 +1,14 @@
+salesforce.Product2 "01tQy00000H8GAnIAN" {
+  ConfigureDuringSale = "Allowed"
+  Description = "Use ChatGPT in Google Workspace. Boost your productivity with Gemini and ChatGPT directly inside your Google Docs, Sheets, Slides, Drive, and Gmail"
+  DisplayUrl = "https://media.istockphoto.com/id/1483272785/photo/artificial-intelligence-touch-screen.jpg?s=2048x2048&w=is&k=20&c=jqKHC0dVaAolw-c6mEpAdPoAohT8DkLKNarfyNio84k="
+  Family = "Software"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "GPT for workspace"
+  ProductCode = "GPTW001"
+  StockKeepingUnit = "GPTW001"
+  _alias = "GPTW001 Software GPT for workspace"
+}

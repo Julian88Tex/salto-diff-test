@@ -1,0 +1,8 @@
+salesforce.ProductQualification "13CQy000004w9IMMAY" {
+  EffectiveFromDate = "2024-08-01"
+  EffectiveToDate = "2026-11-01"
+  MaxNumberOfEmployees__c = 100
+  MinNumberOfEmployees__c = 1000
+  ProductId = salesforce.Product2.instance.01tQy00000H8GBIIA3
+  _alias = "LCP001 Service Laptop Care Package"
+}

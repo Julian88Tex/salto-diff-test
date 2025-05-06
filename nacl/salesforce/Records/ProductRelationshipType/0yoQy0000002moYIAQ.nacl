@@ -1,0 +1,6 @@
+salesforce.ProductRelationshipType "0yoQy0000002moYIAQ" {
+  AssociatedProductRoleCat = "ClassificationComponent"
+  MainProductRoleCat = "Bundle"
+  Name = "Bundle to Product Classification Component Relationship"
+  _alias = "Bundle to Product Classification Component Relationship"
+}

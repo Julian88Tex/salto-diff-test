@@ -1,0 +1,8 @@
+salesforce.AttributeAdjustmentCondition "12FQy0000001aJJMAY" {
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HQy0000000hy1MAA
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Wireless
+  BooleanValue = "True"
+  Operator = "equals"
+  ProductId = salesforce.Product2.instance.01tQy00000H8GAsIAN
+  _alias = "MO001 Hardware Mouse Wireless equals True"
+}

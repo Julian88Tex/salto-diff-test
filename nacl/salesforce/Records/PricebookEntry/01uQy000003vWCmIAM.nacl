@@ -1,0 +1,10 @@
+salesforce.PricebookEntry "01uQy000003vWCmIAM" {
+  IsActive = true
+  IsDerived = true
+  Pricebook2Id = salesforce.Pricebook2.instance.01sQy00000B5qqrIAB
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAoIAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCZMA2
+  UnitPrice = 0
+  UseStandardPrice = false
+  _alias = "Standard Price Book Lucidchart"
+}

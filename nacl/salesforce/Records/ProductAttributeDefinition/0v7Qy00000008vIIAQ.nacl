@@ -1,0 +1,16 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vIIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Training
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Training
+  AttributeNameOverride = "Training"
+  DefaultValue = "Software Training"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Training"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GArIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTU6MAN
+  Sequence = 0
+  Status = "Active"
+  _alias = "T001 Service Basic Training Training"
+}

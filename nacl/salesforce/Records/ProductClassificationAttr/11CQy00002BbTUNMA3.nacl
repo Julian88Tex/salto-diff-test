@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUNMA3" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Register
+  AttributeNameOverride = "Register"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Register"
+  ProductClassificationId = salesforce.ProductClassification.instance.INSTL
+  Sequence = 0
+  Status = "Active"
+  _alias = "Register"
+}

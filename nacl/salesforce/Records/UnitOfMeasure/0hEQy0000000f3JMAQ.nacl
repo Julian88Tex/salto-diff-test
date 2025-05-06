@@ -1,0 +1,10 @@
+salesforce.UnitOfMeasure "0hEQy0000000f3JMAQ" {
+  ConversionFactor = 1
+  Name = "SESH"
+  Sequence = 5
+  Status = "Active"
+  Type = "Count"
+  UnitCode = "SESH"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.COUNT0066
+  _alias = "SESH"
+}

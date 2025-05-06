@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FM4IAM" {
+  Code = "CSE - 6TB"
+  DisplayValue = "Cloud Storage Enterprise - 6 TB"
+  IsDefault = false
+  Name = "Cloud Storage Enterprise - 6 TB"
+  PicklistId = salesforce.AttributePicklist.instance.STR001
+  Sequence = 6
+  Status = "Draft"
+  Value = "Cloud Storage Enterprise - 6 TB"
+  _alias = "Storage Picklist Cloud Storage Enterprise - 6 TB"
+}

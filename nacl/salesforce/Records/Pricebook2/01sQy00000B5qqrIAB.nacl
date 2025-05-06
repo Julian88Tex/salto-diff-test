@@ -1,0 +1,5 @@
+salesforce.Pricebook2 "01sQy00000B5qqrIAB" {
+  IsActive = true
+  Name = "Standard Price Book"
+  _alias = "Standard Price Book"
+}

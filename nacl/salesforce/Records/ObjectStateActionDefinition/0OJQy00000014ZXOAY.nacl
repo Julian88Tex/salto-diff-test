@@ -1,0 +1,6 @@
+salesforce.ObjectStateActionDefinition "0OJQy00000014ZXOAY" {
+  ActionType = "Apex"
+  DisplayLabel = "Revoke Signature"
+  Name = "revokeESign"
+  _alias = "revokeESign"
+}

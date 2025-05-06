@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FMCIA2" {
+  Code = "OFPOS"
+  DisplayValue = "Offline POS"
+  IsDefault = false
+  Name = "Offline POS"
+  PicklistId = salesforce.AttributePicklist.instance.POS0001
+  Sequence = 2
+  Status = "Active"
+  Value = "Offline POS"
+  _alias = "POS Type Offline POS"
+}

@@ -1,0 +1,13 @@
+salesforce.AttributeDefinition Subscription_Type@s {
+  Code = "SUBTYPE001"
+  DataType = "Picklist"
+  DefaultValue = "Business"
+  Description = "Subscription Type - either Enterprise or Business"
+  DeveloperName = "SubscriptionType"
+  IsActive = true
+  IsRequired = true
+  Label = "Subscription Type"
+  Name = "Subscription Type"
+  PicklistId = salesforce.AttributePicklist.instance.STPICK002
+  _alias = "Subscription Type"
+}

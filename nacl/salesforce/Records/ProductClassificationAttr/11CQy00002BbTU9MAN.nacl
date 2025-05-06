@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTU9MAN" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Processor
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Processor
+  AttributeNameOverride = "Processor"
+  DefaultValue = "i5-CPU 4.4GHz"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Processor"
+  ProductClassificationId = salesforce.ProductClassification.instance.CMP001
+  Status = "Active"
+  _alias = "Processor"
+}

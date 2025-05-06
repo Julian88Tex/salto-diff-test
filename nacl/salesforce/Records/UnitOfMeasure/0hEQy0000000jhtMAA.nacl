@@ -1,0 +1,8 @@
+salesforce.UnitOfMeasure "0hEQy0000000jhtMAA" {
+  Description = "desc"
+  Name = "Custom Measure"
+  Status = "Active"
+  Type = "Count"
+  UnitCode = "COUNT003"
+  _alias = "Custom Measure"
+}

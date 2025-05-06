@@ -1,0 +1,6 @@
+salesforce.ProductClassification MN001 {
+  Code = "MN001"
+  Name = "Monitor"
+  Status = "Active"
+  _alias = "Monitor"
+}

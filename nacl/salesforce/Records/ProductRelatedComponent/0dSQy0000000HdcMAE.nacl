@@ -1,0 +1,13 @@
+salesforce.ProductRelatedComponent "0dSQy0000000HdcMAE" {
+  ChildProductId = salesforce.Product2.instance.01tQy00000H8GBDIA3
+  DoesBundlePriceIncludeChild = true
+  IsComponentRequired = false
+  IsDefaultComponent = true
+  IsQuantityEditable = false
+  ParentProductId = salesforce.Product2.instance.01tQy00000H8GB3IAN
+  ProductComponentGroupId = salesforce.ProductComponentGroup.instance.0y7Qy00000009T8IAI
+  ProductRelationshipTypeId = salesforce.ProductRelationshipType.instance.0yoQy0000002moXIAQ
+  Quantity = 1
+  QuantityScaleMethod = "Proportional"
+  _alias = "PRC-000000024"
+}

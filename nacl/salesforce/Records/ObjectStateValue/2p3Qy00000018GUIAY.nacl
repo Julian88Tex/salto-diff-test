@@ -1,0 +1,6 @@
+salesforce.ObjectStateValue "2p3Qy00000018GUIAY" {
+  Name = "Another Object State Value"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy000000181xIAA
+  ReferenceRecordAccessType = "DML"
+  _alias = "Delete Me Another Object State Value"
+}

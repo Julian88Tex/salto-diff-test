@@ -1,0 +1,13 @@
+salesforce.ProductUsageGrant "1BXQy0000000sRpOAI" {
+  EffectiveStartDate = "2024-10-08T00:00:00.000+0000"
+  Label = "Transfer Grant"
+  OverageChargeable = "Yes"
+  ProductOfferId = salesforce.Product2.instance.01tQy00000H8GB1IAN
+  Quantity = 500
+  Status = "Draft"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.DAT005
+  UnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEQy0000000f3FMAQ
+  UsageResourceId = salesforce.UsageResource.instance.1BRQy0000000UEEOA2
+  ValidityPeriodTerm = 0
+  _alias = "Transfer Grant"
+}

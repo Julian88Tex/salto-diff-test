@@ -1,0 +1,15 @@
+salesforce.ProductAttributeDefinition "0v7Qy00000008vHIAQ" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Graphics
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Graphics
+  AttributeNameOverride = "Graphics"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Graphics"
+  Product2Id = salesforce.Product2.instance.01tQy00000H8GAxIAN
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CQy00002BbTU5MAN
+  Sequence = 0
+  Status = "Active"
+  _alias = "LP001 Hardware Laptop Graphics"
+}

@@ -1,0 +1,7 @@
+salesforce.AttributePicklist MEM001 {
+  Code = "MEM001"
+  DataType = "Text"
+  Name = "Memory Picklist"
+  Status = "Draft"
+  _alias = "Memory Picklist"
+}

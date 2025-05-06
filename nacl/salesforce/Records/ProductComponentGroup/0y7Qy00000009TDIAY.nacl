@@ -1,0 +1,6 @@
+salesforce.ProductComponentGroup "0y7Qy00000009TDIAY" {
+  Name = "Printer"
+  ParentProductId = salesforce.Product2.instance.01tQy00000H8GAiIAN
+  Sequence = 1
+  _alias = "Printer"
+}

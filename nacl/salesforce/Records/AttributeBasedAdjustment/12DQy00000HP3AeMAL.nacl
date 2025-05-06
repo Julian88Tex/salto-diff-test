@@ -1,0 +1,10 @@
+salesforce.AttributeBasedAdjustment "12DQy00000HP3AeMAL" {
+  AdjustmentType = "Override"
+  AdjustmentValue = 14.99
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HQy0000000hxsMAA
+  EffectiveFrom = "2024-07-10T07:07:00.000+0000"
+  PriceAdjustmentScheduleId = salesforce.PriceAdjustmentSchedule.instance.84XQy0000000jwPMAQ
+  ProductId = salesforce.Product2.instance.01tQy00000H8GAvIAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPQy0000000CCZMA2
+  _alias = "SP001 Service Support Term Based - Monthly Override"
+}

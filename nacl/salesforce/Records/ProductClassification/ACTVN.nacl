@@ -1,0 +1,6 @@
+salesforce.ProductClassification ACTVN {
+  Code = "ACTVN"
+  Name = "Activation"
+  Status = "Active"
+  _alias = "Activation"
+}

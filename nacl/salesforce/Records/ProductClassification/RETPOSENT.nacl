@@ -1,0 +1,6 @@
+salesforce.ProductClassification RETPOSENT {
+  Code = "RETPOSENT"
+  Name = "Retail POS Enterprise"
+  Status = "Active"
+  _alias = "Retail POS Enterprise"
+}

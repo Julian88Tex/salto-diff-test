@@ -1,0 +1,6 @@
+salesforce.ProductClassification SCNR {
+  Code = "SCNR"
+  Name = "Scanner"
+  Status = "Active"
+  _alias = "Scanner"
+}

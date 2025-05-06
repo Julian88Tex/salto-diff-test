@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Training {
+  DataType = "Picklist"
+  DeveloperName = "Training"
+  IsActive = true
+  IsRequired = false
+  Label = "Training"
+  Name = "Training"
+  PicklistId = salesforce.AttributePicklist.instance.TRA001
+  _alias = "Training"
+}

@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6Qy0000000FLmIAM" {
+  Code = "Intel Iris Xe Graphics"
+  DisplayValue = "Intel Iris Xe Graphics"
+  IsDefault = false
+  Name = "Intel Iris Xe Graphics"
+  PicklistId = salesforce.AttributePicklist.instance.GRA001
+  Sequence = 1
+  Status = "Draft"
+  Value = "Intel Iris Xe Graphics"
+  _alias = "Graphics Picklist Intel Iris Xe Graphics"
+}

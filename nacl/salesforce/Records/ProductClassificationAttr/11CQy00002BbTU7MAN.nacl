@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTU7MAN" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Support
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Support_Level@s
+  AttributeNameOverride = "Support Level"
+  DefaultValue = "Premium Support"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Support Level"
+  ProductClassificationId = salesforce.ProductClassification.instance.SL001
+  Status = "Active"
+  _alias = "Support Level"
+}

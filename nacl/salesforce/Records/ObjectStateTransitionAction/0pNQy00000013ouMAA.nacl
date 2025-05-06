@@ -1,0 +1,9 @@
+salesforce.ObjectStateTransitionAction "0pNQy00000013ouMAA" {
+  DisplaySequence = 1
+  IsActive = true
+  Name = "SignatureDeclined_To_Draft"
+  ObjectStateActionDefinitionId = salesforce.ObjectStateActionDefinition.instance.0OJQy00000014ZUOAY
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4Qy00000013iDIAQ
+  ObjectStateTransitionId = salesforce.ObjectStateTransition.instance.0jjQy00000013lhIAA
+  _alias = "SignatureDeclined_To_Draft"
+}

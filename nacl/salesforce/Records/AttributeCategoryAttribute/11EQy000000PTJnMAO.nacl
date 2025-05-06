@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EQy000000PTJnMAO" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Graphics
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Graphics
+  _alias = "Graphics Graphics"
+}

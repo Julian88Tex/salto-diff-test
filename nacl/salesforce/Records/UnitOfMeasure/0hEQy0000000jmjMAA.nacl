@@ -1,0 +1,9 @@
+salesforce.UnitOfMeasure "0hEQy0000000jmjMAA" {
+  Description = "desc"
+  Name = "Custom Measure"
+  Status = "Active"
+  Type = "Count"
+  UnitCode = "COUNT003"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.CUSTOM0012
+  _alias = "Custom Measure"
+}

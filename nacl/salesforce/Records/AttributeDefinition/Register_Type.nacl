@@ -1,0 +1,11 @@
+salesforce.AttributeDefinition Register_Type@s {
+  DataType = "Picklist"
+  DefaultValue = "Cash & Card"
+  DeveloperName = "Register_Type"
+  IsActive = true
+  IsRequired = true
+  Label = "Type"
+  Name = "Register Type"
+  PicklistId = salesforce.AttributePicklist.instance.R0001
+  _alias = "Register Type"
+}

@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUTMA3" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Region
+  AttributeNameOverride = "Region"
+  DefaultValue = "South"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Region"
+  ProductClassificationId = salesforce.ProductClassification.instance.REG
+  Sequence = 0
+  Status = "Active"
+  _alias = "Region"
+}

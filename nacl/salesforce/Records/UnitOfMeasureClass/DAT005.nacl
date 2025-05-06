@@ -1,0 +1,8 @@
+salesforce.UnitOfMeasureClass DAT005 {
+  Code = "DAT005"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEQy0000000f3HMAQ
+  Name = "Data"
+  Status = "Active"
+  BaseUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEQy0000000f3HMAQ
+  _alias = "Data"
+}

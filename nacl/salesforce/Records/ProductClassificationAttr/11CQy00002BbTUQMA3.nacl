@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CQy00002BbTUQMA3" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.POS_Code@s
+  AttributeNameOverride = "POS Code"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "POS Code"
+  ProductClassificationId = salesforce.ProductClassification.instance.ACTVN
+  Sequence = 0
+  Status = "Active"
+  _alias = "POS Code"
+}

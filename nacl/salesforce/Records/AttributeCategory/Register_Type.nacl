@@ -1,0 +1,5 @@
+salesforce.AttributeCategory Register_Type@s {
+  Code = "REGTYP"
+  Name = "Register Type"
+  _alias = "Register Type"
+}

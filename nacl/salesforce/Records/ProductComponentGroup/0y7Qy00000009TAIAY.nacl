@@ -1,0 +1,6 @@
+salesforce.ProductComponentGroup "0y7Qy00000009TAIAY" {
+  Name = "Computer Protection"
+  ParentProductId = salesforce.Product2.instance.01tQy00000H8GAgIAN
+  Sequence = 2
+  _alias = "Computer Protection"
+}

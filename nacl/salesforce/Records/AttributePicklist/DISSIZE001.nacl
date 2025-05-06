@@ -1,0 +1,7 @@
+salesforce.AttributePicklist DISSIZE001 {
+  Code = "DISSIZE001"
+  DataType = "Text"
+  Name = "Display Size Picklist"
+  Status = "Draft"
+  _alias = "Display Size Picklist"
+}

@@ -1,0 +1,6 @@
+salesforce.ProductClassification SHIPR {
+  Code = "SHIPR"
+  Name = "Shipper"
+  Status = "Active"
+  _alias = "Shipper"
+}

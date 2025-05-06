@@ -1,0 +1,8 @@
+salesforce.AttributeAdjustmentCondition "12FQy0000001aJKMAY" {
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HQy0000000hy2MAA
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Storage
+  Operator = "equals"
+  ProductId = salesforce.Product2.instance.01tQy00000H8GAtIAN
+  StringValue = "Cloud Storage Enterprise - 6 TB"
+  _alias = "CS001 Service Cloud Storage Storage equals Cloud Storage Enterprise - 6 TB"
+}

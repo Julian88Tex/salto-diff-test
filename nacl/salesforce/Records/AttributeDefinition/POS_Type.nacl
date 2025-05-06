@@ -1,0 +1,11 @@
+salesforce.AttributeDefinition POS_Type@s {
+  DataType = "Picklist"
+  DefaultValue = "Multichannel POS"
+  DeveloperName = "POS_Type"
+  IsActive = true
+  IsRequired = false
+  Label = "POS Type"
+  Name = "POS Type"
+  PicklistId = salesforce.AttributePicklist.instance.POS0001
+  _alias = "POS Type"
+}

@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CQy00002F8GwJMAV" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Memory
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.POS_Code@s
+  AttributeNameOverride = "POS Code"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Memory"
+  ProductClassificationId = salesforce.ProductClassification.instance.Demo123
+  Status = "Active"
+  _alias = "Memory"
+}
