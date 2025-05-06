@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecisionTable xmlns="http://soap.sforce.com/2006/04/metadata">
+    <conditionCriteria>1 AND 2 AND 3 AND 4 AND 5</conditionCriteria>
+    <conditionType>All</conditionType>
+    <dataSourceType>SingleSobject</dataSourceType>
+    <description>Derived Pricing Entries Decision Table</description>
+    <doesConsiderNullValue>true</doesConsiderNullValue>
+    <executionType>Hbpo</executionType>
+    <hasIncrementalSyncFailed>false</hasIncrementalSyncFailed>
+    <isIncrementalSyncEnabled>false</isIncrementalSyncEnabled>
+    <setupName>Derived Pricing Entries</setupName>
+    <sourceObject>PricebookEntryDerivedPrice</sourceObject>
+    <status>Active</status>
+    <type>MediumVolume</type>
+    <usageType>PricingDiscovery</usageType>
+</DecisionTable>

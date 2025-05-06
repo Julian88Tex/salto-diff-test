@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Processor Preference</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>What is your preferred processor type for your Computer?</questionText>
+        <responseValues>i5
+i7</responseValues>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>Radio</dataType>
+    <developerName>Processor_Preference</developerName>
+    <name>Processor Preference</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

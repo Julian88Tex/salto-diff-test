@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DocumentId</fullName>
+    <type>Lookup</type>
+    <required>false</required>
+    <relationshipName>Document</relationshipName>
+    <inlineHelpText>The document sent to the recipient.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

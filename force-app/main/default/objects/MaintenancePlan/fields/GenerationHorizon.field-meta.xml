@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GenerationHorizon</fullName>
+    <type>Number</type>
+    <required>false</required>
+    <scale>0</scale>
+    <precision>9</precision>
+    <unique>false</unique>
+    <inlineHelpText>Set the number of days before the Date of the first work order in the next batch on which work order batches are generated.</inlineHelpText>
+</CustomField>

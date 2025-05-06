@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManufactureDate</fullName>
+    <type>Date</type>
+    <required>false</required>
+    <inlineHelpText>Date when the asset was manufactured.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

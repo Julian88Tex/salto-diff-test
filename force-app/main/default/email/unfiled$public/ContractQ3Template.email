@@ -1,0 +1,6 @@
+Hello,
+
+Your request to activate Contract {!Contract.ContractNumber} has been {!ApprovalRequest.Status}
+
+Regards,
+Team Contracts
