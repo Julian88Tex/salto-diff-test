@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Printer_Type@s {
+  DataType = "Picklist"
+  DeveloperName = "Printer_Type"
+  IsActive = true
+  IsRequired = false
+  Label = "Printer"
+  Name = "Printer Type"
+  PicklistId = salesforce.AttributePicklist.instance.PRI001
+  _alias = "Printer Type"
+}

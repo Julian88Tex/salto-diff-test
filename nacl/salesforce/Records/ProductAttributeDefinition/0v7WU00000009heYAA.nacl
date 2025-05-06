@@ -1,0 +1,15 @@
+salesforce.ProductAttributeDefinition "0v7WU00000009heYAA" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Memory
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Memory
+  AttributeNameOverride = "Memory"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Memory"
+  Product2Id = salesforce.Product2.instance.01tWU00000Fmfr1YAB
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CWU00001vv3Ko2AI
+  Sequence = 0
+  Status = "Active"
+  _alias = "LP001 Hardware Laptop Memory"
+}

@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Storage {
+  DataType = "Picklist"
+  DeveloperName = "Storage"
+  IsActive = true
+  IsRequired = true
+  Label = "Storage"
+  Name = "Storage"
+  PicklistId = salesforce.AttributePicklist.instance.STR001
+  _alias = "Storage"
+}

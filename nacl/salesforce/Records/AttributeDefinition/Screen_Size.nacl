@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Screen_Size@s {
+  DataType = "Picklist"
+  DeveloperName = "Screen_Size"
+  IsActive = true
+  IsRequired = true
+  Label = "Screen Size"
+  Name = "Screen Size"
+  PicklistId = salesforce.AttributePicklist.instance.DISSIZE001
+  _alias = "Screen Size"
+}

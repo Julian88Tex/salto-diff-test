@@ -1,0 +1,7 @@
+salesforce.ProductComponentGroup "0y7WU0000000DIDYA2" {
+  Code = "CS00101"
+  Name = "Certifications"
+  ParentProductId = salesforce.Product2.instance.01tWU00000GAiD8YAL
+  Sequence = 2
+  _alias = "Certifications"
+}

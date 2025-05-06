@@ -1,0 +1,8 @@
+salesforce.ProductSellingModel "0jPWU0000000JfT2AU" {
+  Name = "Term Based - Monthly"
+  PricingTerm = 1
+  PricingTermUnit = "Months"
+  SellingModelType = "TermDefined"
+  Status = "Active"
+  _alias = "Term Based - Monthly"
+}

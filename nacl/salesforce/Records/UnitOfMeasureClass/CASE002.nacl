@@ -1,0 +1,8 @@
+salesforce.UnitOfMeasureClass CASE002 {
+  Code = "CASE002"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFg2AI
+  Name = "Case"
+  Status = "Active"
+  BaseUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFg2AI
+  _alias = "Case"
+}

@@ -1,0 +1,10 @@
+salesforce.UnitOfMeasure "0hEWU0000000rFo2AI" {
+  ConversionFactor = 1
+  Name = "XFER"
+  Sequence = 1
+  Status = "Active"
+  Type = "Count"
+  UnitCode = "XFER"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.COUNT003
+  _alias = "XFER"
+}

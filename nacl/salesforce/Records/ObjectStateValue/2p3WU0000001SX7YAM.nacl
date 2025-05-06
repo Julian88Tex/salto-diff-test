@@ -1,0 +1,5 @@
+salesforce.ObjectStateValue "2p3WU0000001SX7YAM" {
+  Name = "Another Object State Value"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001S8lYAE
+  _alias = "Delete Me Another Object State Value"
+}

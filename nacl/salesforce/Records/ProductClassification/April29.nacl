@@ -1,0 +1,6 @@
+salesforce.ProductClassification April29 {
+  Code = "April29"
+  Name = "Classification April 29"
+  Status = "Draft"
+  _alias = "Classification April 29"
+}

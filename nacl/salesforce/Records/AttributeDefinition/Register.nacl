@@ -1,0 +1,9 @@
+salesforce.AttributeDefinition Register {
+  DataType = "Text"
+  DeveloperName = "Register"
+  IsActive = true
+  IsRequired = false
+  Label = "Register"
+  Name = "Register"
+  _alias = "Register"
+}

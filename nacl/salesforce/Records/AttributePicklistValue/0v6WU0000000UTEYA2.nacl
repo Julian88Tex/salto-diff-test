@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UTEYA2" {
+  Code = "Cash & Card"
+  DisplayValue = "Cash & Card"
+  IsDefault = true
+  Name = "Cash & Card"
+  PicklistId = salesforce.AttributePicklist.instance.R0001
+  Sequence = 1
+  Status = "Active"
+  Value = "Cash & Card"
+  _alias = "Register Type Cash & Card"
+}

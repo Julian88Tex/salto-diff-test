@@ -1,0 +1,8 @@
+salesforce.AttributeAdjustmentCondition "12FWU0000001bvR2AQ" {
+  AttributeBasedAdjRuleId = salesforce.AttributeBasedAdjRule.instance.12HWU00000010R52AI
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Training
+  Operator = "equals"
+  ProductId = salesforce.Product2.instance.01tWU00000FmfqmYAB
+  StringValue = "Software Training"
+  _alias = "T001 Service Basic Training Training equals Software Training"
+}

@@ -1,0 +1,6 @@
+salesforce.ObjectStateActionDefinition "0OJWU0000001KT24AM" {
+  ActionType = "Apex"
+  DisplayLabel = "Activate Contract"
+  Name = "activateContract"
+  _alias = "activateContract"
+}

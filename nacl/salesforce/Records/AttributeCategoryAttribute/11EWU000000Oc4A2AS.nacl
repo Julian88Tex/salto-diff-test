@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc4A2AS" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Printer
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Printer_Type@s
+  _alias = "Printer Printer Type"
+}

@@ -1,0 +1,6 @@
+salesforce.ObjectStateValue "2p3WU0000001L2RYAU" {
+  Name = "Canceled"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001KfpYAE
+  RefRecordLayoutFieldValue = "ReadOnly"
+  _alias = "Contract LifeCycle Management Canceled"
+}

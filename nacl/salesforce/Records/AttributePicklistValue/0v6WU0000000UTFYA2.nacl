@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UTFYA2" {
+  Code = "Cash Only"
+  DisplayValue = "Cash Only"
+  IsDefault = false
+  Name = "Cash Only"
+  PicklistId = salesforce.AttributePicklist.instance.R0001
+  Sequence = 2
+  Status = "Active"
+  Value = "Cash Only"
+  _alias = "Register Type Cash Only"
+}

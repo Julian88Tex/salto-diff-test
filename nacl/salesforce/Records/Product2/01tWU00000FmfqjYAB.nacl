@@ -1,0 +1,14 @@
+salesforce.Product2 "01tWU00000FmfqjYAB" {
+  BasedOnId = salesforce.ProductClassification.instance.PR001
+  ConfigureDuringSale = "Allowed"
+  Description = "Accepts text and graphic output from a computer and transfers the information to paper"
+  DisplayUrl = "https://images.unsplash.com/photo-1650094980833-7373de26feb6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  Family = "Hardware"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Printer"
+  ProductCode = "P001"
+  _alias = "P001 Hardware Printer"
+}

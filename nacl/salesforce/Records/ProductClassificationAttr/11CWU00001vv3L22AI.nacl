@@ -1,0 +1,14 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3L22AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Register_Type@s
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Register_Type@s
+  AttributeNameOverride = "Register Type"
+  DefaultValue = "Cash & Card"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Register Type"
+  ProductClassificationId = salesforce.ProductClassification.instance.REG
+  Status = "Active"
+  _alias = "Register Type"
+}

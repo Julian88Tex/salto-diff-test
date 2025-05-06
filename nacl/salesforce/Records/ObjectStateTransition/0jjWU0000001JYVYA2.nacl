@@ -1,0 +1,7 @@
+salesforce.ObjectStateTransition "0jjWU0000001JYVYA2" {
+  FromStateId = salesforce.ObjectStateValue.instance.2p3WU0000001Jv5YAE
+  Name = "InApproval_To_Rejected"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001JYTYA2
+  ToStateId = salesforce.ObjectStateValue.instance.2p3WU0000001Jv3YAE
+  _alias = "Contract LifeCycle Management InApproval_To_Rejected"
+}

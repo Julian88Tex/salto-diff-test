@@ -1,0 +1,7 @@
+salesforce.UnitOfMeasureClass COUNT0066 {
+  Code = "COUNT0066"
+  Name = "Count"
+  Status = "Draft"
+  BaseUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU000000107d2AA
+  _alias = "Count"
+}

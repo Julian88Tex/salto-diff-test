@@ -1,0 +1,6 @@
+salesforce.ProductClassification CS001 {
+  Code = "CS001"
+  Name = "Cloud Storage"
+  Status = "Active"
+  _alias = "Cloud Storage"
+}

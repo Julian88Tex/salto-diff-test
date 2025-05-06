@@ -1,0 +1,9 @@
+salesforce.ObjectStateDefinition "0o4WU0000001S8kYAE" {
+  AdditionalField = "Site"
+  AdditionalFieldValue = "Default"
+  IsActive = false
+  Name = "Test Deploy As Active"
+  ReferenceField = "AccountSource"
+  ReferenceObject = "Account"
+  _alias = "Test Deploy As Active"
+}

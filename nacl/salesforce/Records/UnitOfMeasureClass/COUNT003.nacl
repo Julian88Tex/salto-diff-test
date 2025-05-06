@@ -1,0 +1,8 @@
+salesforce.UnitOfMeasureClass COUNT003 {
+  Code = "COUNT003"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFo2AI
+  Name = "Count"
+  Status = "Active"
+  BaseUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFo2AI
+  _alias = "Count"
+}

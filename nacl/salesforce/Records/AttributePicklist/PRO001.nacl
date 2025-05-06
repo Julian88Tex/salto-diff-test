@@ -1,0 +1,7 @@
+salesforce.AttributePicklist PRO001 {
+  Code = "PRO001"
+  DataType = "Text"
+  Name = "Processor Picklist"
+  Status = "Draft"
+  _alias = "Processor Picklist"
+}

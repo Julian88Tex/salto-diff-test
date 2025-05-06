@@ -1,0 +1,5 @@
+salesforce.AttributeCategory Processor {
+  Code = "PRO"
+  Name = "Processor"
+  _alias = "Processor"
+}

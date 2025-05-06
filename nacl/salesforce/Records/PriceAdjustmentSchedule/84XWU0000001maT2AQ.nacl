@@ -1,0 +1,8 @@
+salesforce.PriceAdjustmentSchedule "84XWU0000001maT2AQ" {
+  AdjustmentMethod = "Range"
+  EffectiveFrom = "2023-11-27T04:02:00.000+0000"
+  IsActive = false
+  Name = "Standard Volume Based Adjustment"
+  ScheduleType = "Volume"
+  _alias = "Standard Volume Based Adjustment"
+}

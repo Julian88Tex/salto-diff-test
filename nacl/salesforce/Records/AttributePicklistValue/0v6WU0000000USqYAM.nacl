@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000USqYAM" {
+  Code = "24IN"
+  DisplayValue = "24 Inch"
+  IsDefault = false
+  Name = "24 Inch"
+  PicklistId = salesforce.AttributePicklist.instance.DISSIZE001
+  Sequence = 3
+  Status = "Draft"
+  Value = "24 Inch"
+  _alias = "Display Size Picklist 24 Inch"
+}

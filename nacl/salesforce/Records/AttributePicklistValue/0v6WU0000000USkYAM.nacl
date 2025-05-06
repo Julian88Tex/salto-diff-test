@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000USkYAM" {
+  Code = "2k Built-in Display"
+  DisplayValue = "2k Built-in Display"
+  IsDefault = false
+  Name = "2k Built-in Display"
+  PicklistId = salesforce.AttributePicklist.instance.DIS001
+  Sequence = 2
+  Status = "Draft"
+  Value = "2k Built-in Display"
+  _alias = "Display Picklist 2k Built-in Display"
+}

@@ -1,0 +1,8 @@
+salesforce.AttributePicklist RG0001 {
+  Code = "RG0001"
+  DataType = "Text"
+  Description = "Region"
+  Name = "Region"
+  Status = "Active"
+  _alias = "Region"
+}

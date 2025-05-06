@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc492AC" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Paper
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Paper_Size@s
+  _alias = "Paper Paper Size"
+}

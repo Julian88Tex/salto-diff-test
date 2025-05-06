@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000USxYAM" {
+  Code = "RAM 8GB"
+  DisplayValue = "RAM 8GB"
+  IsDefault = false
+  Name = "RAM 8GB"
+  PicklistId = salesforce.AttributePicklist.instance.MEM001
+  Sequence = 1
+  Status = "Draft"
+  Value = "RAM 8GB"
+  _alias = "Memory Picklist RAM 8GB"
+}

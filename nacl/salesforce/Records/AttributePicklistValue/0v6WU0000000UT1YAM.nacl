@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UT1YAM" {
+  Code = "IN001"
+  DisplayValue = "Inkjet"
+  IsDefault = false
+  Name = "Inkjet"
+  PicklistId = salesforce.AttributePicklist.instance.PRI001
+  Sequence = 2
+  Status = "Draft"
+  Value = "Inkjet"
+  _alias = "Printer Picklist Inkjet"
+}

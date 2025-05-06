@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Processor {
+  DataType = "Picklist"
+  DeveloperName = "Processor"
+  IsActive = true
+  IsRequired = true
+  Label = "Processor"
+  Name = "Processor"
+  PicklistId = salesforce.AttributePicklist.instance.PRO001
+  _alias = "Processor"
+}

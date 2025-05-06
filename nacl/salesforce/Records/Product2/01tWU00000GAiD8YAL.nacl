@@ -1,0 +1,12 @@
+salesforce.Product2 "01tWU00000GAiD8YAL" {
+  ConfigureDuringSale = "Allowed"
+  Family = "Support"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Advanced Training"
+  ProductCode = "AT001"
+  Type = "Bundle"
+  _alias = "AT001 Support Advanced Training"
+}

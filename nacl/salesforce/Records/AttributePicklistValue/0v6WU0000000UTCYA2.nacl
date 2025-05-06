@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UTCYA2" {
+  Code = "Premium Plus Support"
+  DisplayValue = "Premium Plus Support"
+  IsDefault = false
+  Name = "Premium Plus Support"
+  PicklistId = salesforce.AttributePicklist.instance.SP001
+  Sequence = 2
+  Status = "Draft"
+  Value = "Premium Plus Support"
+  _alias = "Support Level Picklist Premium Plus Support"
+}

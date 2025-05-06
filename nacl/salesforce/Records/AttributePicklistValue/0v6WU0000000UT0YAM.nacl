@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UT0YAM" {
+  Code = "LS001"
+  DisplayValue = "Laser"
+  IsDefault = false
+  Name = "Laser"
+  PicklistId = salesforce.AttributePicklist.instance.PRI001
+  Sequence = 1
+  Status = "Draft"
+  Value = "Laser"
+  _alias = "Printer Picklist Laser"
+}

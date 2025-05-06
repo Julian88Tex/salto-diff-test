@@ -1,0 +1,8 @@
+salesforce.UnitOfMeasureClass CURR004 {
+  Code = "CURR004"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFn2AI
+  Name = "Currency"
+  Status = "Active"
+  BaseUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFn2AI
+  _alias = "Currency"
+}

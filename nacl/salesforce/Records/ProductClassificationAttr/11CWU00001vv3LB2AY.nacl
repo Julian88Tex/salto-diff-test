@@ -1,0 +1,12 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3LB2AY" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.ECOM_Code@s
+  AttributeNameOverride = "ECOM Code"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "ECOM Code"
+  ProductClassificationId = salesforce.ProductClassification.instance.ACTVN
+  Status = "Active"
+  _alias = "ECOM Code"
+}

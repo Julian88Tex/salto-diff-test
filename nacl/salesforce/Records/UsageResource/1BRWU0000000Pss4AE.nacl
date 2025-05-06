@@ -1,0 +1,9 @@
+salesforce.UsageResource "1BRWU0000000Pss4AE" {
+  Category = "Usage"
+  Code = "DT00909"
+  Name = "Data Transfers"
+  Status = "Active"
+  UnitOfMeasureClassId = salesforce.UnitOfMeasureClass.instance.DAT005
+  UsageResourceBillingPolicyId = salesforce.UsageResourceBillingPolicy.instance.1cfWU00000008YfYAI
+  _alias = "Data Transfers"
+}

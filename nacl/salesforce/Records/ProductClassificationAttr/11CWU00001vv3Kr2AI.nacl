@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3Kr2AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Processor
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Processor
+  AttributeNameOverride = "Processor"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Processor"
+  ProductClassificationId = salesforce.ProductClassification.instance.CMP001
+  Status = "Active"
+  _alias = "Processor"
+}

@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UTLYA2" {
+  Code = "Multichannel POS"
+  DisplayValue = "Multichannel POS"
+  IsDefault = true
+  Name = "Multichannel POS"
+  PicklistId = salesforce.AttributePicklist.instance.POS0001
+  Sequence = 5
+  Status = "Active"
+  Value = "Multichannel POS"
+  _alias = "POS Type Multichannel POS"
+}

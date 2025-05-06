@@ -1,0 +1,6 @@
+salesforce.ProductRelationshipType "0yoWU000000362VYAQ" {
+  AssociatedProductRoleCat = "SetComponent"
+  MainProductRoleCat = "Set"
+  Name = "Set to Set Component Relationship"
+  _alias = "Set to Set Component Relationship"
+}

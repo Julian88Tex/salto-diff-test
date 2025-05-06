@@ -1,0 +1,6 @@
+salesforce.ProductClassification PR001 {
+  Code = "PR001"
+  Name = "Printer"
+  Status = "Active"
+  _alias = "Printer"
+}

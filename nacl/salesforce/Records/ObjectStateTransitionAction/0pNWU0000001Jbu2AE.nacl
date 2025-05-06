@@ -1,0 +1,9 @@
+salesforce.ObjectStateTransitionAction "0pNWU0000001Jbu2AE" {
+  DisplaySequence = 1
+  IsActive = true
+  Name = "Signed_To_Activated"
+  ObjectStateActionDefinitionId = salesforce.ObjectStateActionDefinition.instance.0OJWU0000001KT24AM
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001JYTYA2
+  ObjectStateTransitionId = salesforce.ObjectStateTransition.instance.0jjWU0000001JYkYAM
+  _alias = "Signed_To_Activated"
+}

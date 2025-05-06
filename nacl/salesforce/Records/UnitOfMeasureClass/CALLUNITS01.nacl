@@ -1,0 +1,8 @@
+salesforce.UnitOfMeasureClass CALLUNITS01 {
+  Code = "CALLUNITS01"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFk2AI
+  Name = "Call Units"
+  Status = "Active"
+  BaseUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFk2AI
+  _alias = "Call Units"
+}

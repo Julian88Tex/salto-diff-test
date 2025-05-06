@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3Ku2AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Display
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Display
+  AttributeNameOverride = "Display"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Display"
+  ProductClassificationId = salesforce.ProductClassification.instance.MN001
+  Status = "Active"
+  _alias = "Display"
+}

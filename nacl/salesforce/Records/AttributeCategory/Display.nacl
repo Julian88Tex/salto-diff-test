@@ -1,0 +1,5 @@
+salesforce.AttributeCategory Display {
+  Code = "DIS"
+  Name = "Display"
+  _alias = "Display"
+}

@@ -1,0 +1,8 @@
+salesforce.AdAvailabilityViewConfig "11tWU00000GAiJVYA1" {
+  ConfigurationKey = "PricingProrationSetting"
+  ConfigurationValue = "1:0"
+  IsActive = false
+  Name = "PricingProrationSetting"
+  UsageType = "Pricing"
+  _alias = "PricingProrationSetting"
+}

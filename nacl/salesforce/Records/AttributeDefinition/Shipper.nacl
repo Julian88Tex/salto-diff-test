@@ -1,0 +1,9 @@
+salesforce.AttributeDefinition Shipper {
+  DataType = "Text"
+  DeveloperName = "Shipper"
+  IsActive = true
+  IsRequired = false
+  Label = "Shipper"
+  Name = "Shipper"
+  _alias = "Shipper"
+}

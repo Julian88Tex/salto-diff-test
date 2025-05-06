@@ -1,0 +1,6 @@
+salesforce.ProductClassification PLAN {
+  Code = "PLAN"
+  Name = "Planning"
+  Status = "Active"
+  _alias = "Planning"
+}

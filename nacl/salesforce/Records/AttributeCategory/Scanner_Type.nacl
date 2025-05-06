@@ -1,0 +1,5 @@
+salesforce.AttributeCategory Scanner_Type@s {
+  Code = "SCNTYP"
+  Name = "Scanner Type"
+  _alias = "Scanner Type"
+}

@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Advance_Ecommerce@s {
+  DataType = "Checkbox"
+  DefaultValue = "false"
+  DeveloperName = "Advance_Ecommerce"
+  IsActive = true
+  IsRequired = false
+  Label = "Advance Ecommerce"
+  Name = "Advance Ecommerce"
+  _alias = "Advance Ecommerce"
+}

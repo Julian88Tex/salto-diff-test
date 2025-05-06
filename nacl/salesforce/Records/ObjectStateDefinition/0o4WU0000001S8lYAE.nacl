@@ -1,0 +1,7 @@
+salesforce.ObjectStateDefinition "0o4WU0000001S8lYAE" {
+  IsActive = false
+  Name = "Delete Me"
+  ReferenceField = "Status"
+  ReferenceObject = "ServiceAppointment"
+  _alias = "Delete Me"
+}

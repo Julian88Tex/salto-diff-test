@@ -1,0 +1,11 @@
+salesforce.AttributeDefinition Region {
+  DataType = "Picklist"
+  DefaultValue = "South"
+  DeveloperName = "Region"
+  IsActive = true
+  IsRequired = false
+  Label = "Region"
+  Name = "Region"
+  PicklistId = salesforce.AttributePicklist.instance.RG0001
+  _alias = "Region"
+}

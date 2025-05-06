@@ -1,0 +1,7 @@
+salesforce.ObjectStateTransition "0jjWU0000001JYbYAM" {
+  FromStateId = salesforce.ObjectStateValue.instance.2p3WU0000001Jv7YAE
+  Name = "Negotiating_To_Draft"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001JYTYA2
+  ToStateId = salesforce.ObjectStateValue.instance.2p3WU0000001Jv4YAE
+  _alias = "Contract LifeCycle Management Negotiating_To_Draft"
+}

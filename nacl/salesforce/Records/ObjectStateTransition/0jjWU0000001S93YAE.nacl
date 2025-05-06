@@ -1,0 +1,7 @@
+salesforce.ObjectStateTransition "0jjWU0000001S93YAE" {
+  FromStateId = salesforce.ObjectStateValue.instance.2p3WU0000001SX6YAM
+  Name = "Test Transition"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001S8lYAE
+  ToStateId = salesforce.ObjectStateValue.instance.2p3WU0000001SX7YAM
+  _alias = "Delete Me Test Transition"
+}

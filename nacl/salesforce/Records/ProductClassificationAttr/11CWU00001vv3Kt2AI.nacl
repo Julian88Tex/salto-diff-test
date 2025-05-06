@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3Kt2AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Training
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Training
+  AttributeNameOverride = "Training"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Training"
+  ProductClassificationId = salesforce.ProductClassification.instance.TL001
+  Status = "Active"
+  _alias = "Training"
+}

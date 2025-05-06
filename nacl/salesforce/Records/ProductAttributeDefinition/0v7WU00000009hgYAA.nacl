@@ -1,0 +1,15 @@
+salesforce.ProductAttributeDefinition "0v7WU00000009hgYAA" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Printer
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Printer_Type@s
+  AttributeNameOverride = "Printer Type"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Printer Type"
+  Product2Id = salesforce.Product2.instance.01tWU00000FmfqjYAB
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CWU00001vv3Kq2AI
+  Sequence = 0
+  Status = "Active"
+  _alias = "P001 Hardware Printer Printer Type"
+}

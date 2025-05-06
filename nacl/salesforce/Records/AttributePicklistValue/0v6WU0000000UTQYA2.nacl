@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UTQYA2" {
+  Code = "Central"
+  DisplayValue = "Central"
+  IsDefault = false
+  Name = "Central"
+  PicklistId = salesforce.AttributePicklist.instance.RG0001
+  Sequence = 5
+  Status = "Active"
+  Value = "Central"
+  _alias = "Region Central"
+}

@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Support_Level@s {
+  DataType = "Picklist"
+  DeveloperName = "Support_Level"
+  IsActive = true
+  IsRequired = false
+  Label = "Support Level"
+  Name = "Support Level"
+  PicklistId = salesforce.AttributePicklist.instance.SP001
+  _alias = "Support Level"
+}

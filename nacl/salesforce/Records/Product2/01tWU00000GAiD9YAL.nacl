@@ -1,0 +1,12 @@
+salesforce.Product2 "01tWU00000GAiD9YAL" {
+  ConfigureDuringSale = "Allowed"
+  Family = "Support"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Professional Certifications"
+  ProductCode = "PC001"
+  Type = "Bundle"
+  _alias = "PC001 Support Professional Certifications"
+}

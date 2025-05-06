@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Graphics {
+  DataType = "Picklist"
+  DeveloperName = "Graphics"
+  IsActive = true
+  IsRequired = false
+  Label = "Graphics"
+  Name = "Graphics"
+  PicklistId = salesforce.AttributePicklist.instance.GRA001
+  _alias = "Graphics"
+}

@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3Ko2AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Memory
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Memory
+  AttributeNameOverride = "Memory"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Memory"
+  ProductClassificationId = salesforce.ProductClassification.instance.CMP001
+  Status = "Active"
+  _alias = "Memory"
+}

@@ -1,0 +1,4 @@
+salesforce.AttributeBasedAdjRule "12HWU00000010RC2AY" {
+  Name = "Rule_1722928150227"
+  _alias = "Rule_1722928150227"
+}

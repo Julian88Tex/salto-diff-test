@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3LC2AY" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.POS_Type@s
+  AttributeNameOverride = "POS Type"
+  DefaultValue = "Multichannel POS"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "POS Type"
+  ProductClassificationId = salesforce.ProductClassification.instance.RETPOS
+  Status = "Active"
+  _alias = "POS Type"
+}

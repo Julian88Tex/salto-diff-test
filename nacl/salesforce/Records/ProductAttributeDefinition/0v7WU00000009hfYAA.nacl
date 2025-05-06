@@ -1,0 +1,15 @@
+salesforce.ProductAttributeDefinition "0v7WU00000009hfYAA" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Paper
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Paper_Size@s
+  AttributeNameOverride = "Paper Size"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Paper Size"
+  Product2Id = salesforce.Product2.instance.01tWU00000FmfqpYAB
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CWU00001vv3Kp2AI
+  Sequence = 0
+  Status = "Active"
+  _alias = "PP001 Hardware Printer Paper Paper Size"
+}

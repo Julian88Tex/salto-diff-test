@@ -1,0 +1,15 @@
+salesforce.ProductAttributeDefinition "0v7WU00000009hhYAA" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Processor
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Processor
+  AttributeNameOverride = "Processor"
+  IsHidden = false
+  IsPriceImpacting = true
+  IsReadOnly = false
+  IsRequired = true
+  Name = "Processor"
+  Product2Id = salesforce.Product2.instance.01tWU00000Fmfr1YAB
+  ProductClassificationAttributeId = salesforce.ProductClassificationAttr.instance.11CWU00001vv3Kr2AI
+  Sequence = 0
+  Status = "Active"
+  _alias = "LP001 Hardware Laptop Processor"
+}

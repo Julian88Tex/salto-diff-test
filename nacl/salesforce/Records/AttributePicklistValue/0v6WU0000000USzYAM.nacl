@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000USzYAM" {
+  Code = "L001"
+  DisplayValue = "Letter"
+  IsDefault = false
+  Name = "Letter"
+  PicklistId = salesforce.AttributePicklist.instance.PSIZE001
+  Sequence = 1
+  Status = "Draft"
+  Value = "Letter"
+  _alias = "Paper Size Picklist Letter"
+}

@@ -1,0 +1,9 @@
+salesforce.ObjectStateTransitionAction "0pNWU0000001Jbq2AE" {
+  DisplaySequence = 1
+  IsActive = true
+  Name = "AwaitingSignature_To_Signed"
+  ObjectStateActionDefinitionId = salesforce.ObjectStateActionDefinition.instance.0OJWU0000001KT04AM
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001JYTYA2
+  ObjectStateTransitionId = salesforce.ObjectStateTransition.instance.0jjWU0000001JYeYAM
+  _alias = "AwaitingSignature_To_Signed"
+}

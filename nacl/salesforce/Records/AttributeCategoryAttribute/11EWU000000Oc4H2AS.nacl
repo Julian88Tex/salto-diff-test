@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc4H2AS" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Display
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Screen_Size@s
+  _alias = "Display Screen Size"
+}

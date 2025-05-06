@@ -1,0 +1,6 @@
+salesforce.ObjectStateActionDefinition "0OJWU0000001KT34AM" {
+  ActionType = "Apex"
+  DisplayLabel = "Terminate Contract"
+  Name = "terminateContract"
+  _alias = "terminateContract"
+}

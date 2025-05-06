@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc4C2AS" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Training
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Training
+  _alias = "Training Training"
+}

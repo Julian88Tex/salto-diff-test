@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition Memory {
+  DataType = "Picklist"
+  DeveloperName = "Memory"
+  IsActive = true
+  IsRequired = true
+  Label = "Memory"
+  Name = "Memory"
+  PicklistId = salesforce.AttributePicklist.instance.MEM001
+  _alias = "Memory"
+}

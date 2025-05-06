@@ -1,0 +1,5 @@
+salesforce.AttributeCategory Storage {
+  Code = "STO"
+  Name = "Storage"
+  _alias = "Storage"
+}

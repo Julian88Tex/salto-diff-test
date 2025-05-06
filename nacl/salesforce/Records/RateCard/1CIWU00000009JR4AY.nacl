@@ -1,0 +1,6 @@
+salesforce.RateCard "1CIWU00000009JR4AY" {
+  EffectiveFrom = "2024-10-08T19:00:00.000+0000"
+  Name = "API Access Premium Rate Card"
+  Type = "Base"
+  _alias = "API Access Premium Rate Card"
+}

@@ -1,0 +1,7 @@
+salesforce.ObjectStateTransition "0jjWU0000001KfzYAE" {
+  FromStateId = salesforce.ObjectStateValue.instance.2p3WU0000001L2TYAU
+  Name = "Negotiating_To_Canceled"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001KfpYAE
+  ToStateId = salesforce.ObjectStateValue.instance.2p3WU0000001L2RYAU
+  _alias = "Contract LifeCycle Management Negotiating_To_Canceled"
+}

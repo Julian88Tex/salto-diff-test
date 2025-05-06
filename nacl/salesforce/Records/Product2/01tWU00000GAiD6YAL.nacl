@@ -1,0 +1,11 @@
+salesforce.Product2 "01tWU00000GAiD6YAL" {
+  ConfigureDuringSale = "Allowed"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Retail POS Enterprise"
+  ProductCode = "ENPOS101"
+  Type = "Bundle"
+  _alias = "ENPOS101 Retail POS Enterprise"
+}

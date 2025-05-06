@@ -1,0 +1,14 @@
+salesforce.Product2 "01tWU00000GAiD5YAL" {
+  ConfigureDuringSale = "Allowed"
+  Description = "The printer bundle includes various printer options, printer paper with various connectivity options"
+  DisplayUrl = "https://images.unsplash.com/photo-1708793699492-5fa208f52dcb?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  Family = "Hardware"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Printer Bundle"
+  ProductCode = "PB001"
+  Type = "Bundle"
+  _alias = "PB001 Hardware Printer Bundle"
+}

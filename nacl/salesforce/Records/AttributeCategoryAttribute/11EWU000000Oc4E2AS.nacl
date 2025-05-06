@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc4E2AS" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Memory
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Memory
+  _alias = "Memory Memory"
+}

@@ -1,0 +1,13 @@
+salesforce.Product2 "01tWU00000GAiDAYA1" {
+  ConfigureDuringSale = "NotAllowed"
+  DisplayUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxjZ1g4DEG-O7e0e4NykbtJLxOUkwrcwBOhNU8MqWQQ&s"
+  Family = "Miscellaneous"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Laptop Accessories"
+  ProductCode = "LA001"
+  Type = "Bundle"
+  _alias = "LA001 Miscellaneous Laptop Accessories"
+}

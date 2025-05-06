@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UT3YAM" {
+  Code = "IC5.2"
+  DisplayValue = "Intel Core i9 5.2 GHz"
+  IsDefault = false
+  Name = "Intel Core i9 5.2 GHz"
+  PicklistId = salesforce.AttributePicklist.instance.PRO001
+  Sequence = 3
+  Status = "Draft"
+  Value = "Intel Core i9 5.2 GHz"
+  _alias = "Processor Picklist Intel Core i9 5.2 GHz"
+}

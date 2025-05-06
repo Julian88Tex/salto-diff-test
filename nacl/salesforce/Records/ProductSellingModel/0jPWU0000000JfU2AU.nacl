@@ -1,0 +1,8 @@
+salesforce.ProductSellingModel "0jPWU0000000JfU2AU" {
+  Name = "Evergreen - Yearly"
+  PricingTerm = 1
+  PricingTermUnit = "Annual"
+  SellingModelType = "Evergreen"
+  Status = "Active"
+  _alias = "Evergreen - Yearly"
+}

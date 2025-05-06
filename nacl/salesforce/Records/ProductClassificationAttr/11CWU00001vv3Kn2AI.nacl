@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3Kn2AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Graphics
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Graphics
+  AttributeNameOverride = "Graphics"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Graphics"
+  ProductClassificationId = salesforce.ProductClassification.instance.CMP001
+  Status = "Active"
+  _alias = "Graphics"
+}

@@ -1,0 +1,9 @@
+salesforce.AttributeDefinition Scanner {
+  DataType = "Text"
+  DeveloperName = "Scanner"
+  IsActive = true
+  IsRequired = false
+  Label = "Scanner"
+  Name = "Scanner"
+  _alias = "Scanner"
+}

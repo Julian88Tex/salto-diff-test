@@ -1,0 +1,8 @@
+salesforce.AttributePicklist POS0001 {
+  Code = "POS0001"
+  DataType = "Text"
+  Description = "POS Type"
+  Name = "POS Type"
+  Status = "Active"
+  _alias = "POS Type"
+}

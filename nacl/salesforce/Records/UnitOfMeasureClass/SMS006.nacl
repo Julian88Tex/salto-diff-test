@@ -1,0 +1,8 @@
+salesforce.UnitOfMeasureClass SMS006 {
+  Code = "SMS006"
+  DefaultUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFf2AI
+  Name = "SMS"
+  Status = "Active"
+  BaseUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEWU0000000rFf2AI
+  _alias = "SMS"
+}

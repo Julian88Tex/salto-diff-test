@@ -1,0 +1,12 @@
+salesforce.Product2 "01tWU00000FmZfTYAV" {
+  ConfigureDuringSale = "Allowed"
+  DisplayUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKganIBAKYF78LGme-XcgnxVwUuZFF39n9w&usqp=CAU"
+  Family = "Service"
+  IsActive = true
+  IsAssetizable = true
+  IsSerialized = false
+  IsSoldOnlyWithOtherProds = false
+  Name = "Laptop Care Package"
+  ProductCode = "LCP001"
+  _alias = "LCP001 Service Laptop Care Package"
+}

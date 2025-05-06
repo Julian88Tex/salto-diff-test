@@ -1,0 +1,7 @@
+salesforce.ObjectStateTransition "0jjWU0000001KhYYAU" {
+  FromStateId = salesforce.ObjectStateValue.instance.2p3WU0000001L44YAE
+  Name = "Rejected_To_Draft"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001KhRYAU
+  ToStateId = salesforce.ObjectStateValue.instance.2p3WU0000001L41YAE
+  _alias = "Contract LifeCycle Management Rejected_To_Draft"
+}

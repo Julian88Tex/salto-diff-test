@@ -1,0 +1,6 @@
+salesforce.ProductClassification TL001 {
+  Code = "TL001"
+  Name = "Training"
+  Status = "Active"
+  _alias = "Training"
+}

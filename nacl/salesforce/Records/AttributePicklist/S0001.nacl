@@ -1,0 +1,8 @@
+salesforce.AttributePicklist S0001 {
+  Code = "S0001"
+  DataType = "Text"
+  Description = "Scanner Type"
+  Name = "Scanner Type"
+  Status = "Active"
+  _alias = "Scanner Type"
+}

@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3Kq2AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Printer
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Printer_Type@s
+  AttributeNameOverride = "Printer Type"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Printer Type"
+  ProductClassificationId = salesforce.ProductClassification.instance.PR001
+  Status = "Active"
+  _alias = "Printer Type"
+}

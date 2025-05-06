@@ -1,0 +1,8 @@
+salesforce.ProductComponentGroup "0y7WU0000000DIRYA2" {
+  Code = "CS001012"
+  Name = "LLM Certifications"
+  ParentGroupId = salesforce.ProductComponentGroup.instance.0y7WU0000000DIDYA2
+  ParentProductId = salesforce.Product2.instance.01tWU00000GAiD8YAL
+  Sequence = 2
+  _alias = "LLM Certifications"
+}

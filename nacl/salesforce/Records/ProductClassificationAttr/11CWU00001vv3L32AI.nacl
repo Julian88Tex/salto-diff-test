@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3L32AI" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Advance_Ecommerce@s
+  AttributeNameOverride = "Advance Ecommerce"
+  DefaultValue = "false"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Advance Ecommerce"
+  ProductClassificationId = salesforce.ProductClassification.instance.ECOM
+  Status = "Active"
+  _alias = "Advance Ecommerce"
+}

@@ -1,0 +1,9 @@
+salesforce.ObjectStateDefinition "0o4WU0000001JYTYA2" {
+  AdditionalField = "ContractType"
+  AdditionalFieldValue = "Default"
+  IsActive = true
+  Name = "Contract LifeCycle Management"
+  ReferenceField = "Status"
+  ReferenceObject = "Contract"
+  _alias = "Contract LifeCycle Management"
+}

@@ -1,0 +1,6 @@
+salesforce.ObjectStateValue "2p3WU0000001Jv3YAE" {
+  Name = "Rejected"
+  ObjectStateDefinitionId = salesforce.ObjectStateDefinition.instance.0o4WU0000001JYTYA2
+  RefRecordLayoutFieldValue = "ReadOnly"
+  _alias = "Contract LifeCycle Management Rejected"
+}

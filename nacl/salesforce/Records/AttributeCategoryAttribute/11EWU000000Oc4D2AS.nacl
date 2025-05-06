@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc4D2AS" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Support
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Support_Level@s
+  _alias = "Support Support Level"
+}

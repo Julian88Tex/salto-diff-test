@@ -1,0 +1,13 @@
+salesforce.ProductClassificationAttr "11CWU00001z7tDp2AI" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Paper
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Paper_Size@s
+  AttributeNameOverride = "Paper Size"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Paper Size"
+  ProductClassificationId = salesforce.ProductClassification.instance.Delete_Me@s
+  Status = "Active"
+  _alias = "Paper Size"
+}

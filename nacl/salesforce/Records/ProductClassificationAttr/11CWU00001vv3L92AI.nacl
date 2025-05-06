@@ -1,0 +1,12 @@
+salesforce.ProductClassificationAttr "11CWU00001vv3L92AI" {
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Shipper
+  AttributeNameOverride = "Shipper"
+  IsHidden = false
+  IsPriceImpacting = false
+  IsReadOnly = false
+  IsRequired = false
+  Name = "Shipper"
+  ProductClassificationId = salesforce.ProductClassification.instance.SHIPR
+  Status = "Active"
+  _alias = "Shipper"
+}

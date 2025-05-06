@@ -1,0 +1,6 @@
+salesforce.ProductClassification P001 {
+  Code = "P001"
+  Name = "Paper"
+  Status = "Active"
+  _alias = "Paper"
+}

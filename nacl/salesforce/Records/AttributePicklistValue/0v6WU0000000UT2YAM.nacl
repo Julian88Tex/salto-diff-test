@@ -1,0 +1,11 @@
+salesforce.AttributePicklistValue "0v6WU0000000UT2YAM" {
+  Code = "i7-CPU 4.7GHz"
+  DisplayValue = "i7-CPU 4.7GHz"
+  IsDefault = false
+  Name = "i7-CPU 4.7GHz"
+  PicklistId = salesforce.AttributePicklist.instance.PRO001
+  Sequence = 2
+  Status = "Draft"
+  Value = "i7-CPU 4.7GHz"
+  _alias = "Processor Picklist i7-CPU 4.7GHz"
+}

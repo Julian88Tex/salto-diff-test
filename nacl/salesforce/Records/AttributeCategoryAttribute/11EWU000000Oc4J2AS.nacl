@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc4J2AS" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Connection_Type@s
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Wireless
+  _alias = "Connection Type Wireless"
+}

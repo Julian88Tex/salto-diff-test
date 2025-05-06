@@ -1,0 +1,8 @@
+salesforce.ProductRampSegment "1FTWU00000067d84AA" {
+  DurationType = "Days"
+  ProductId = salesforce.Product2.instance.01tWU00000FfWBkYAN
+  ProductSellingModelId = salesforce.ProductSellingModel.instance.0jPWU0000000JfR2AU
+  SegmentType = "FreeTrial"
+  TrialDuration = 45
+  _alias = "FreeTrial QBO0021 Quickbooks Online Term Based - Yearly"
+}

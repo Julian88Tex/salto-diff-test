@@ -1,0 +1,5 @@
+salesforce.AttributeCategoryAttribute "11EWU000000Oc4K2AS" {
+  AttributeCategoryId = salesforce.AttributeCategory.instance.Register_Type@s
+  AttributeDefinitionId = salesforce.AttributeDefinition.instance.Register_Type@s
+  _alias = "Register Type Register Type"
+}
