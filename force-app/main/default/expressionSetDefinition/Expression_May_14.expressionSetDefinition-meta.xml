@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExpressionSetDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextDefinitions>ProductDiscoveryContext__stdctx</contextDefinitions>
+    <executionScale>Low</executionScale>
+    <label>Expression May 14</label>
+    <processType>FinancialServicesCloud</processType>
+    <template>false</template>
+    <versions>
+        <fullName>Expression_May_14_V1</fullName>
+        <expressionSetDefinition>Expression_May_14</expressionSetDefinition>
+        <label>Expression May 14 V1</label>
+        <processType>FinancialServicesCloud</processType>
+        <shouldShowExplExternally>false</shouldShowExplExternally>
+        <startDate>2025-05-14T10:50:58.000Z</startDate>
+        <status>Draft</status>
+        <versionNumber>1</versionNumber>
+    </versions>
+</ExpressionSetDefinition>
