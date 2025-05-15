@@ -5,14 +5,14 @@ salesforce.ProductConfigurationFlow "127WU0000000sYHYAY" {
   _alias = "00000001"
   _created_at = "2025-05-06T17:15:41.000+0000"
   _created_by = "Tamir Ohayon"
-  _changed_at = "2025-05-06T17:15:41.000+0000"
+  _changed_at = "2025-05-15T09:59:59.000+0000"
   _changed_by = "Tamir Ohayon"
   OwnerId = "005Qy00000FQbcnIAD"
   IsDeleted = false
   Name = "00000001"
   CreatedDate = "2025-05-06T17:15:41.000+0000"
   CreatedById = "005Qy00000FQbcnIAD"
-  LastModifiedDate = "2025-05-06T17:15:41.000+0000"
+  LastModifiedDate = "2025-05-15T09:59:59.000+0000"
   LastModifiedById = "005Qy00000FQbcnIAD"
-  SystemModstamp = "2025-05-06T17:15:41.000+0000"
+  SystemModstamp = "2025-05-15T09:59:59.000+0000"
 }

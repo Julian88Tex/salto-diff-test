@@ -1,0 +1,4 @@
+salesforce.AttributeBasedAdjRule "12HQy0000001WFZMA2" {
+  Name = "may15"
+  _alias = "may15"
+}
