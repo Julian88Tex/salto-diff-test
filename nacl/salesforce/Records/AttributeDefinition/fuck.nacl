@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition fuck {
+  DataType = "Number"
+  DefaultValue = "13"
+  DeveloperName = "fuck"
+  IsActive = false
+  IsRequired = false
+  Label = "off"
+  Name = "fuck"
+  _alias = "fuck"
+}

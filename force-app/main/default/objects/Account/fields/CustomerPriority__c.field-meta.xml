@@ -24,6 +24,18 @@
                 <label>Medium</label>
                 <default>false</default>
             </value>
+            <value>
+                <fullName>false</fullName>
+                <isActive>true</isActive>
+                <label>false</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>true</fullName>
+                <isActive>true</isActive>
+                <label>true</label>
+                <default>false</default>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <trackFeedHistory>false</trackFeedHistory>

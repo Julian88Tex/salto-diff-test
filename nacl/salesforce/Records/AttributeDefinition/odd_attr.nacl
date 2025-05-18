@@ -1,0 +1,10 @@
+salesforce.AttributeDefinition odd_attr@s {
+  DataType = "Number"
+  DefaultValue = "12"
+  DeveloperName = "odd_attr"
+  IsActive = false
+  IsRequired = false
+  Label = "odd attrib"
+  Name = "odd attr"
+  _alias = "odd attr"
+}

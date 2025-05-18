@@ -20,6 +20,16 @@
         <default>false</default>
         <label>Evergreen (Greater than 5 Years)</label>
     </customValue>
+    <customValue>
+        <fullName>true</fullName>
+        <default>false</default>
+        <label>true</label>
+    </customValue>
+    <customValue>
+        <fullName>false</fullName>
+        <default>false</default>
+        <label>false</label>
+    </customValue>
     <masterLabel>Proposal Duration</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
