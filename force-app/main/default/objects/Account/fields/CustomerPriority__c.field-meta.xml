@@ -13,18 +13,6 @@
                 <default>false</default>
             </value>
             <value>
-                <fullName>Low</fullName>
-                <isActive>true</isActive>
-                <label>Low</label>
-                <default>false</default>
-            </value>
-            <value>
-                <fullName>Medium</fullName>
-                <isActive>true</isActive>
-                <label>Medium</label>
-                <default>false</default>
-            </value>
-            <value>
                 <fullName>false</fullName>
                 <isActive>true</isActive>
                 <label>false</label>

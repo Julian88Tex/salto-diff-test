@@ -5,7 +5,6 @@
     <type>Picklist</type>
     <required>false</required>
     <valueSet>
-        <restricted>true</restricted>
         <valueSetDefinition>
             <value>
                 <fullName>A</fullName>
@@ -14,20 +13,26 @@
                 <default>false</default>
             </value>
             <value>
+                <fullName>A</fullName>
+                <isActive>true</isActive>
+                <label>A</label>
+                <default>false</default>
+            </value>
+            <value>
                 <fullName>B</fullName>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>B</label>
                 <default>false</default>
             </value>
             <value>
                 <fullName>C</fullName>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>C</label>
                 <default>false</default>
             </value>
             <value>
                 <fullName>D</fullName>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>D</label>
                 <default>false</default>
             </value>

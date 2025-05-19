@@ -7,6 +7,11 @@
         <label>Prospect</label>
     </standardValue>
     <standardValue>
+        <fullName>Prospect </fullName>
+        <default>false</default>
+        <label>Prospect </label>
+    </standardValue>
+    <standardValue>
         <fullName>Customer - Direct</fullName>
         <default>false</default>
         <label>Customer - Direct</label>
