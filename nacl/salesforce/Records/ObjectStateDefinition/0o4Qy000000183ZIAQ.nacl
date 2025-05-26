@@ -1,7 +1,7 @@
 salesforce.ObjectStateDefinition "0o4Qy000000183ZIAQ" {
   IsActive = false
   Name = "Test Quote State"
-  ReferenceField = "Status"
-  ReferenceObject = "Quote"
+  ReferenceField = salesforce.Quote.field.Status
+  ReferenceObject = salesforce.Quote
   _alias = "Test Quote State"
 }
