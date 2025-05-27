@@ -3,4 +3,5 @@
     <fullName>PublisherId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>Publisher</relationshipName>
 </CustomField>

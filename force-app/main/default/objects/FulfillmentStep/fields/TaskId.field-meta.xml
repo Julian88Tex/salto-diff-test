@@ -3,4 +3,5 @@
     <fullName>TaskId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>Task</relationshipName>
 </CustomField>

@@ -13,12 +13,6 @@
                 <default>false</default>
             </value>
             <value>
-                <fullName>A</fullName>
-                <isActive>true</isActive>
-                <label>A</label>
-                <default>false</default>
-            </value>
-            <value>
                 <fullName>B</fullName>
                 <isActive>true</isActive>
                 <label>B</label>

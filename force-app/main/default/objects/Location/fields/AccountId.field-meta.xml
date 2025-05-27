@@ -3,5 +3,6 @@
     <fullName>AccountId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>Account</relationshipName>
     <trackFeedHistory>false</trackFeedHistory>
 </CustomField>

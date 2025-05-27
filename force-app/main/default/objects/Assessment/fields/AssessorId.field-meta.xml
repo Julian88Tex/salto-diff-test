@@ -3,6 +3,7 @@
     <fullName>AssessorId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>Assessor</relationshipName>
     <inlineHelpText>The person who carried out the assessment and recorded the responses.</inlineHelpText>
     <trackFeedHistory>false</trackFeedHistory>
 </CustomField>

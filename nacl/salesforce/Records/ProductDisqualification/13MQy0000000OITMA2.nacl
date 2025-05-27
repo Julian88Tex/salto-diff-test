@@ -1,7 +1,7 @@
 salesforce.ProductDisqualification "13MQy0000000OITMA2" {
   EffectiveFromDate = "2024-08-01"
   EffectiveToDate = "2026-11-01"
-  Industry__c = "Recreation"
+  Industry__c = salesforce.ProductDisqualification.field.Industry__c.valueSet.values.Recreation.fullName
   ParentProductId = salesforce.Product2.instance.01tQy00000H8GAiIAN
   ProductId = salesforce.Product2.instance.01tQy00000H8GAyIAN
   RootProductId = salesforce.Product2.instance.01tQy00000H8GAiIAN

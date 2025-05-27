@@ -3,4 +3,5 @@
     <fullName>BindingInstanceTargetId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>BindingInstanceTarget</relationshipName>
 </CustomField>

@@ -19,6 +19,7 @@
         <locationY>0</locationY>
     </actionCalls>
     <apiVersion>61</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <description>Check if the order has an AppUsageType of RevenueLifecycleManagement before calling Order-to-Asset. Otherwise do nothing.</description>
         <name>IsRevenueLifecycleManagement</name>

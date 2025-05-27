@@ -28,6 +28,7 @@
         <locationY>0</locationY>
     </actionCalls>
     <apiVersion>62</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
         <name>Assign_Catalog_Count</name>
         <label>Assign Catalog Count</label>

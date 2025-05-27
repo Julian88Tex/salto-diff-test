@@ -3,6 +3,7 @@
     <fullName>AssessmentQuestionVerChoiceId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>AssessmentQuestionVerChoice</relationshipName>
     <inlineHelpText>The assessment question version choice associated with assessment question response.</inlineHelpText>
     <trackFeedHistory>false</trackFeedHistory>
 </CustomField>

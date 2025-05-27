@@ -45,6 +45,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>ExecuteNowFulfillmentStepAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ExecuteNowFulfillmentStepAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ExecuteNowFulfillmentStepAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>LaunchFlowForManualTask</actionName>
         <type>Default</type>
     </actionOverrides>

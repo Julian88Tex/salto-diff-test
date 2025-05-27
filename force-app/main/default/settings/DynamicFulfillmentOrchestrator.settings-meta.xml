@@ -3,5 +3,7 @@
     <enableDFOFallout>true</enableDFOFallout>
     <enableDFOJeopardy>true</enableDFOJeopardy>
     <enableDFOPref>true</enableDFOPref>
+    <enableDROFutureDatedTasks>false</enableDROFutureDatedTasks>
     <enableDROInflightRequest>false</enableDROInflightRequest>
+    <enableDROTaskSource>false</enableDROTaskSource>
 </DynamicFulfillmentOrchestratorSettings>

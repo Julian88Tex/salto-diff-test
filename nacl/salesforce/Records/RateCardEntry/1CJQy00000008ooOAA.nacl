@@ -8,4 +8,6 @@ salesforce.RateCardEntry "1CJQy00000008ooOAA" {
   RateUnitOfMeasureId = salesforce.UnitOfMeasure.instance.0hEQy0000000f3LMAQ
   UsageResourceId = salesforce.UsageResource.instance.1BRQy0000000UEEOA2
   _alias = "API Access Premium Rate Card Data Transfers"
+  Status = "Active"
+  RateCardType = "Base"
 }
