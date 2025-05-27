@@ -3,5 +3,6 @@
     <fullName>PricingContractId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>PricingContract</relationshipName>
     <trackHistory>false</trackHistory>
 </CustomField>

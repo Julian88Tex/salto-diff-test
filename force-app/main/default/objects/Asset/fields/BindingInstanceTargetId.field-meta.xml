@@ -3,6 +3,7 @@
     <fullName>BindingInstanceTargetId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>BindingInstanceTarget</relationshipName>
     <trackHistory>false</trackHistory>
     <trackFeedHistory>false</trackFeedHistory>
 </CustomField>

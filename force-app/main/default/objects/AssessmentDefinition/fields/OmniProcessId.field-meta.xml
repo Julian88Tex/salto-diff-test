@@ -3,4 +3,5 @@
     <fullName>OmniProcessId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>OmniProcess</relationshipName>
 </CustomField>

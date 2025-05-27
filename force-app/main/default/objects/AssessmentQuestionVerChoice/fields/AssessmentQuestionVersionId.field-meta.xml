@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AssessmentQuestionVersionId</fullName>
     <type>MasterDetail</type>
-    <required>false</required>
+    <required>true</required>
+    <relationshipName>AssessmentQuestionVersion</relationshipName>
     <inlineHelpText>The assessment question version associated with the assessment question version choice.</inlineHelpText>
 </CustomField>

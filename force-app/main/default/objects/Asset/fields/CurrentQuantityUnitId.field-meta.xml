@@ -3,6 +3,7 @@
     <fullName>CurrentQuantityUnitId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>CurrentQuantityUnit</relationshipName>
     <inlineHelpText>The current unit of measure for the quantity that&apos;s associated with the asset.</inlineHelpText>
     <trackHistory>false</trackHistory>
     <trackFeedHistory>false</trackFeedHistory>

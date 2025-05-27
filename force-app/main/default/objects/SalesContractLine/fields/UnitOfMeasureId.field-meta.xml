@@ -3,4 +3,5 @@
     <fullName>UnitOfMeasureId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>UnitOfMeasure</relationshipName>
 </CustomField>

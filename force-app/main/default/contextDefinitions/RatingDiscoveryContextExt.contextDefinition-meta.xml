@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContextDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canBeReferenceDefinition>false</canBeReferenceDefinition>
     <contextDefinitionVersions>
         <contextMappings>
             <contextNodeMappings>
@@ -323,6 +324,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/Pricebook/id</inheritedFrom>
                 <key>false</key>
                 <title>id</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextTags>
@@ -345,6 +347,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/Pricebook/UsageProduct/ParentReference</inheritedFrom>
                 <key>false</key>
                 <title>ParentReference</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -357,6 +360,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/Pricebook/UsageProduct/Product</inheritedFrom>
                 <key>false</key>
                 <title>Product</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -369,6 +373,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/Pricebook/UsageProduct/UsageResource</inheritedFrom>
                 <key>false</key>
                 <title>UsageResource</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -381,6 +386,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/Pricebook/UsageProduct/RateUnitOfMeasure</inheritedFrom>
                 <key>false</key>
                 <title>RateUnitOfMeasure</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -393,6 +399,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/Pricebook/UsageProduct/EffectiveFrom</inheritedFrom>
                 <key>false</key>
                 <title>EffectiveFrom</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextTags>
@@ -414,6 +421,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCard/Type</inheritedFrom>
                 <key>false</key>
                 <title>Type</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -426,6 +434,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCard/id</inheritedFrom>
                 <key>false</key>
                 <title>id</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -438,6 +447,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCard/EffectiveFrom</inheritedFrom>
                 <key>false</key>
                 <title>EffectiveFrom</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -450,6 +460,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCard/EffectiveTo</inheritedFrom>
                 <key>false</key>
                 <title>EffectiveTo</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextTags>
@@ -471,6 +482,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/id</inheritedFrom>
                 <key>false</key>
                 <title>id</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -483,6 +495,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/RateCard</inheritedFrom>
                 <key>false</key>
                 <title>RateCard</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -495,6 +508,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/Product</inheritedFrom>
                 <key>false</key>
                 <title>Product</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -507,6 +521,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/UsageProduct</inheritedFrom>
                 <key>false</key>
                 <title>UsageProduct</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -519,6 +534,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/ProductSellingModel</inheritedFrom>
                 <key>false</key>
                 <title>ProductSellingModel</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -531,6 +547,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/UsageResource</inheritedFrom>
                 <key>false</key>
                 <title>UsageResource</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -543,6 +560,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/DefaultUnitOfMeasure</inheritedFrom>
                 <key>false</key>
                 <title>DefaultUnitOfMeasure</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -555,6 +573,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/DefaultUnitOfMeasureClass</inheritedFrom>
                 <key>false</key>
                 <title>DefaultUnitOfMeasureClass</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -567,6 +586,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/RateUnitOfMeasure</inheritedFrom>
                 <key>false</key>
                 <title>RateUnitOfMeasure</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -579,6 +599,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/EffectiveFrom</inheritedFrom>
                 <key>false</key>
                 <title>EffectiveFrom</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -591,6 +612,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/EffectiveTo</inheritedFrom>
                 <key>false</key>
                 <title>EffectiveTo</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -603,6 +625,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/Rate</inheritedFrom>
                 <key>false</key>
                 <title>Rate</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -615,6 +638,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/RateUnitOfMeasureClass</inheritedFrom>
                 <key>false</key>
                 <title>RateUnitOfMeasureClass</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -627,6 +651,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/RateUnitOfMeasureName</inheritedFrom>
                 <key>false</key>
                 <title>RateUnitOfMeasureName</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -639,6 +664,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateCardEntry/RateNegotiation</inheritedFrom>
                 <key>false</key>
                 <title>RateNegotiation</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextTags>
@@ -660,6 +686,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateAdjustmentByTier/RateCardEntry</inheritedFrom>
                 <key>false</key>
                 <title>RateCardEntry</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -672,6 +699,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateAdjustmentByTier/id</inheritedFrom>
                 <key>false</key>
                 <title>id</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -684,6 +712,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateAdjustmentByTier/AdjustmentType</inheritedFrom>
                 <key>false</key>
                 <title>AdjustmentType</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -696,6 +725,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateAdjustmentByTier/AdjustmentValue</inheritedFrom>
                 <key>false</key>
                 <title>AdjustmentValue</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -708,6 +738,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateAdjustmentByTier/LowerBound</inheritedFrom>
                 <key>false</key>
                 <title>LowerBound</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextAttributes>
@@ -720,6 +751,7 @@
                 <inheritedFrom>RatingDiscoveryContext__stdctx/version/RateAdjustmentByTier/UpperBound</inheritedFrom>
                 <key>false</key>
                 <title>UpperBound</title>
+                <transient>false</transient>
                 <value>false</value>
             </contextAttributes>
             <contextTags>
@@ -736,6 +768,7 @@
     </contextDefinitionVersions>
     <contextTtl>10</contextTtl>
     <description>Rating Discovery Context definition extended from rating discovery context definition standard definition.</description>
+    <hasSystemTags>false</hasSystemTags>
     <inheritedFrom>RatingDiscoveryContext__stdctx</inheritedFrom>
     <inheritedFromVersion>62.04</inheritedFromVersion>
     <isProtected>false</isProtected>
