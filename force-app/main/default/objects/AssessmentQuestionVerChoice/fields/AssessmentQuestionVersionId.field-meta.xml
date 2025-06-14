@@ -4,5 +4,5 @@
     <type>MasterDetail</type>
     <required>true</required>
     <relationshipName>AssessmentQuestionVersion</relationshipName>
-    <inlineHelpText>The assessment question version associated with the assessment question version choice.</inlineHelpText>
+    <inlineHelpText>The assessment question version associated with the assessment question version choice (deprecated).</inlineHelpText>
 </CustomField>

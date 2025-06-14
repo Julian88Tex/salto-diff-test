@@ -3,5 +3,6 @@
     <fullName>OrderItemRecipientId</fullName>
     <type>Lookup</type>
     <required>false</required>
+    <relationshipName>OrderItemRecipient</relationshipName>
     <trackHistory>false</trackHistory>
 </CustomField>

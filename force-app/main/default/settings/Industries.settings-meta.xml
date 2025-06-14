@@ -13,10 +13,12 @@
     <enableIndustriesAssessmentPrefill>false</enableIndustriesAssessmentPrefill>
     <enableIndustriesIntegrationOrchestratorPref>false</enableIndustriesIntegrationOrchestratorPref>
     <enableMicrosoftWordAddInEnabled>true</enableMicrosoftWordAddInEnabled>
+    <enableNewTimelineSetupFlow>false</enableNewTimelineSetupFlow>
     <enablePCMConfigRules>false</enablePCMConfigRules>
     <enablePartyProfileParentSharingOrgPref>false</enablePartyProfileParentSharingOrgPref>
     <enablePartyprofParentMultiSharingOrgPref>false</enablePartyprofParentMultiSharingOrgPref>
     <enableSaveAssessmentAsDraft>false</enableSaveAssessmentAsDraft>
+    <enableTimelinePref>false</enableTimelinePref>
     <partyProfMultiShrPrtnrsOrgPref>false</partyProfMultiShrPrtnrsOrgPref>
     <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
 </IndustriesSettings>

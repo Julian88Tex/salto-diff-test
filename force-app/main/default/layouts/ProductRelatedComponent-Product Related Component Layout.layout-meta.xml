@@ -11,6 +11,10 @@
                 <field>UnitOfMeasureId</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>QuoteVisibility</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Name</field>
             </layoutItems>
@@ -138,10 +142,12 @@
     </layoutSections>
     <miniLayout>
         <fields>UnitOfMeasureId</fields>
+        <fields>QuoteVisibility</fields>
     </miniLayout>
     <multilineLayoutFields>ParentProductId</multilineLayoutFields>
     <multilineLayoutFields>UnitOfMeasureId</multilineLayoutFields>
     <multilineLayoutFields>ChildProductId</multilineLayoutFields>
+    <multilineLayoutFields>QuoteVisibility</multilineLayoutFields>
     <multilineLayoutFields>ChildProductClassificationId</multilineLayoutFields>
     <multilineLayoutFields>Sequence</multilineLayoutFields>
     <multilineLayoutFields>Quantity</multilineLayoutFields>

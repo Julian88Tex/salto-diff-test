@@ -16,7 +16,7 @@
                 <field>Label</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>ProductOfferId</field>
             </layoutItems>
             <layoutItems>
@@ -30,7 +30,7 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>UsageResourceId</field>
             </layoutItems>
             <layoutItems>

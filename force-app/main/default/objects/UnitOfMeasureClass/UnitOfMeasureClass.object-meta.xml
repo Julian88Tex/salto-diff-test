@@ -136,17 +136,21 @@
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
         <customTabListAdditionalFields>DefaultUnitOfMeasure</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>Code</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>DefaultUnitOfMeasure</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Code</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>DefaultUnitOfMeasure</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>Code</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>DefaultUnitOfMeasure</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
     </searchLayouts>
 </CustomObject>
