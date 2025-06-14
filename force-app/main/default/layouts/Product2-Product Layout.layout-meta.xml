@@ -207,6 +207,8 @@
         <fields>ValidityPeriodTerm</fields>
         <fields>ValidityPeriodUnit</fields>
         <fields>Status</fields>
+        <fields>EffectiveStartDate</fields>
+        <fields>EffectiveEndDate</fields>
         <relatedList>ProductUsageGrants</relatedList>
     </relatedLists>
     <relatedLists>

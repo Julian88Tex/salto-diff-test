@@ -5,7 +5,7 @@
     <dataSourceType>MultipleSobjects</dataSourceType>
     <description>Fetch the negotiated tier-based rate adjustment with bound range based on input values specified in the decision table.</description>
     <doesConsiderNullValue>true</doesConsiderNullValue>
-    <executionType>Hbpo</executionType>
+    <executionType>Hbase</executionType>
     <hasIncrementalSyncFailed>false</hasIncrementalSyncFailed>
     <isIncrementalSyncEnabled>false</isIncrementalSyncEnabled>
     <setupName>Asset Tier-based Rate Adjustment</setupName>

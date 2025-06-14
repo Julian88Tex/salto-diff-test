@@ -132,29 +132,29 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
-        <customTabListAdditionalFields>ProductOffer</customTabListAdditionalFields>
-        <customTabListAdditionalFields>UsageResource</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ProductUsageResource</customTabListAdditionalFields>
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <customTabListAdditionalFields>Quantity</customTabListAdditionalFields>
         <customTabListAdditionalFields>UnitOfMeasure</customTabListAdditionalFields>
         <customTabListAdditionalFields>DrawdownOrder</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ProductOffer</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>UsageResource</lookupDialogsAdditionalFields>
+        <customTabListAdditionalFields>Type</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ProductUsageResource</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Quantity</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>UnitOfMeasure</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>DrawdownOrder</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ProductOffer</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>UsageResource</lookupPhoneDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ProductUsageResource</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Quantity</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>UnitOfMeasure</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>DrawdownOrder</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ProductOffer</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>UsageResource</searchResultsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ProductUsageResource</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Quantity</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>UnitOfMeasure</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>DrawdownOrder</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
     </searchLayouts>
 </CustomObject>

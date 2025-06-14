@@ -5,7 +5,7 @@
     <dataSourceType>SingleSobject</dataSourceType>
     <description>Rate Adjustment by Attribute Resolution Decision Table</description>
     <doesConsiderNullValue>true</doesConsiderNullValue>
-    <executionType>Hbpo</executionType>
+    <executionType>Hbase</executionType>
     <hasIncrementalSyncFailed>false</hasIncrementalSyncFailed>
     <isIncrementalSyncEnabled>false</isIncrementalSyncEnabled>
     <setupName>Rate Adjustment by Attribute Resolution Entries</setupName>
