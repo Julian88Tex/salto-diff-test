@@ -201,7 +201,4 @@ salesforce {
     maxInstancesPerType = 5000
   }
   maxItemsInRetrieveRequest = 2500
-  flags = {
-    defaultIterationOverride = 1
-  }
 }
