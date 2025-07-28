@@ -4,6 +4,6 @@ salesforce.ObjectStateDefinition "0o4Qy00000017yjIAA" {
   IsActive = false
   Name = "Test Deploy As Active"
   ReferenceField = salesforce.Account.field.AccountSource
-  ReferenceObject = salesforce.Account
+  ReferenceObject = salesforce.Account.attr.label
   _alias = "Test Deploy As Active"
 }
