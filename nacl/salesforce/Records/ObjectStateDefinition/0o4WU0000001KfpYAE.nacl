@@ -4,6 +4,6 @@ salesforce.ObjectStateDefinition "0o4WU0000001KfpYAE" {
   IsActive = false
   Name = "Contract LifeCycle Management"
   ReferenceField = salesforce.Contract.field.Status
-  ReferenceObject = salesforce.Contract
+  ReferenceObject = salesforce.Contract.attr.label
   _alias = "Contract LifeCycle Management"
 }
